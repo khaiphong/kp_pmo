@@ -1,3 +1,3 @@
 # lib
 
-Library of pmo crate.
+Library of kp_pmo crate.
