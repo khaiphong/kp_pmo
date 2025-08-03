@@ -3,10 +3,26 @@
 version = 4
 
 [[package]]
+name = "agent"
+version = "0.1.0"
+
+[[package]]
+name = "ai"
+version = "0.1.0"
+
+[[package]]
+name = "bc"
+version = "0.1.0"
+
+[[package]]
 name = "cfg-if"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9555578bc9e57714c812a1f84e4fc5b4d21fcb063490c624de019f7464c91268"
+
+[[package]]
+name = "eip"
+version = "0.1.0"
 
 [[package]]
 name = "getrandom"
@@ -31,6 +47,10 @@ name = "libc"
 version = "0.2.174"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1171693293099992e19cddea4e8b849964e9846f4acee11b3948bcc337be8776"
+
+[[package]]
+name = "plan"
+version = "0.1.0"
 
 [[package]]
 name = "pmo"
