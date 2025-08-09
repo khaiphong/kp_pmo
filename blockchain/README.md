@@ -1,3 +1,3 @@
 # blockchain
 
-Rust-based blockchains permeating kp_pmo, kp_platform and kp_mu.
+Rust-based blockchains permeating <a href="https://github.com/khaiphong/kp_pmo/" target="_blank">MyPMO</a>, <a href="https://github.com/khaiphong/kp_platform/" target="_blank">KpPlatform</a>, <a href="https://github.com/khaiphong/kp_mu/" target="_blank">Web3 Technologies</a>. While <b>Rust</b> is not specifically designed for blockchains, the language is extremely convenient to build <a href="https://github.com/khaiphong/kp_platform/tree/main/platform" target="_blank">layer-one infrastructure</a>, <a href="https://github.com/khaiphong/kp_pmo/" target="_blank">layer-two data and layer-five applications</a>. In <a href="https://github.com/khaiphong/kp_platform/" target="_blank">KpPLatform</b>, we use <b>Rust</b> in all 5 layers of blockchains (hardware, data, network, concensus, applications).
