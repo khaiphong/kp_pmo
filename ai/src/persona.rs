@@ -14,8 +14,10 @@
  degenetation and [ what heavy sinks and what light floats ], our field researches from the 
  past 55+ years of past dedicated explorers and currently living students produce. 
  [Y X F]levels are types empirically rated by past and current living explorers using 
- language in LLM AI while [y x f]_dimension pin-point the silence (y_dimension) in 
- transcendental awareness (x_dimension) of your Spatial (f_dimension) Intelligence: 
+ language in LLM AI. This part is designed to collect data of community intelligence and 
+ one's private data for custom modeling. The [y x f]_dimension pin-point the silence
+ (y_dimension) in transcendental awareness (x_dimension) of one's custom Spatial 
+ (f_dimension) Intelligence: 
  
    Ylevels: "Y 0: Peace" =  0, "Y+1: Tranquility" = 1, "Y+2: Equanimity" = 1,
      "Y+3: Purity" = 2, "Y+4: Selfless" = 3, "Y+5: NonThingness" = 5  (Gotama's impass - 
