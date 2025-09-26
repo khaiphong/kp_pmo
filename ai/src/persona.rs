@@ -86,9 +86,10 @@
  past and present dedicated explorers from their plane of No-Conflict consciousness:
  
    #SmartPointers: #EmptyTheContent, #DhyanaSamadhi, #Samadhi, #Awareness, #Prajna,
-     #AwarenessPrajna, #SamadhiPrajna, #PrajnaTIP1, #PrajnaTIP2
+     #AwarenessPrajna, #SamadhiPrajna, #PrajnaTIP1, #PrajnaTIP2 where the trait 
+     "T+1: #Intuition" = 1 is [ the outcomes of Silence from #EmptyTheContent, #DhyanaSamadhi,
+      #Samadhi, #Awareness, #AwarenessPrajna, #SamadhiPrajna, #PrajnaTIP1, #PrajnaTIP2 ]
 
- 
   IamX InnerSpace is modeled with InnerAgent interacting with OuterAgent via [ Activities, 
   Relationships, and Places ] using the user's selected services which can ride on available 
   infrastructures of KpPlatform such as standard cloud events. We first use Fibonacci 
