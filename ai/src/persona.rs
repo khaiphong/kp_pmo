@@ -114,9 +114,9 @@
   execution. This part will be standardized and open-sources for possible value-added
   solutions in x_traits, y_pointers, [f x y]_dimensions : vectors instead of i32.
   
-  We can further drill down in src/persona/mod.rs rather than just src/persona.rs
-  or even drilled down src/persona/awareness/mod.rs for modules at different awareness levels
-  and use crate::persona::Awareness::Freshness_x(1)=1
+  We can drill down in sub divisions of src/persona.rs forming src/persona/awareness.rs etc,
+  or even drilled down src/persona/awareness/awareness_type.rs for modules at different
+  awareness levels and use crate::persona::Awareness::Freshness
 */
 
 #[derive(Debug)]
