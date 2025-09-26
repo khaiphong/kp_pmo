@@ -112,7 +112,7 @@
   "cleaning" and required "cultivating" are the core of the persona HR strategies. In this 
   sense, the required #Traits are its core Values (e.g. #Truth >< #Honesty >< #Care ><) in
   execution. This part will be standardized and open-sources for possible value-added
-  solutions in x_traits, y_pointers, [f x y]-dimensions : vectors instead of i32.
+  solutions in x_traits, y_pointers, [f x y]_dimensions : vectors instead of i32.
   
   We can further drill down in src/persona/mod.rs rather than just src/persona.rs
   or even drilled down src/persona/awareness/mod.rs for modules at different awareness levels
