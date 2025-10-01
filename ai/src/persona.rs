@@ -196,6 +196,13 @@ pub mod p9prajna_tip2;
   Modeling the InnerSpace is the systematic building internal power for different stages of
   the persona developments. Academia research + LLM statistical significance. These methods
   will be used as a part of f_evaluation depending on the type of persona and custom services
+  
+  The type Self of InnerSpace in its implementation, augmented by AI from the DISCOVERED &
+  SHARED community Intelligence, can learn the right conditions for experiencing the
+  actural "Selfless / Silence / #GodKingdom / Budh / Sirr / Monad from the #One" as glimpsed
+  by past explorers, and the ThenWhat when back to the duality plane of conflicting
+  consciousness.
+
 */
 impl InnerSpace { // different methods for different InnerSpace persona types
 
