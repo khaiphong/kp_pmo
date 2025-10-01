@@ -5,19 +5,21 @@
  consciousness happened. The conditions and their outcome can be tested via AI LLM (Large
  Language Model) for possible DISCOVERED underlying natural laws to do the heavy lifting
  from duality plane of conflicting consciousness to the No-Conflict consciousness, quiet
- enough to see any major conflicting event As-It-Is and an Innovative Solution to make Thing
- happened toward What Count(https://blog.khaiphong.io/2023/09/nature-of-things.html#Section_2.1).
+ enough to see major conflicting event As-It-Is and a Solution to make Thing happened toward
+ What Count(https://blog.khaiphong.io/2023/09/nature-of-things.html#Section_2.1).
  
  Assuming the [ Right or Wrong / Evolution or Degeneration ] follows complex Fibonacci or
  Lucas sequences where naturally qualified Latin humanitas is at the base 0 with positive
- direction indicating the right / evolution negative direction indicating the wrong / 
- degenetation and [ what heavy sinks and what light floats ], our field researches from the 
- past 55+ years of past dedicated explorers and currently living students produce. 
- [Y X F]levels are types empirically rated by past and current living explorers using 
- language in LLM AI. This part is designed to collect data of community intelligence and 
- one's private data for custom modeling. The [y x f]_dimension pin-point the silence
- (y_dimension) in transcendental awareness (x_dimension) of one's custom Spatial 
- (f_dimension) Intelligence: 
+ direction indicating the right / evolution and negative direction indicating the wrong / 
+ degenetation and [ what heavy sinks and what light floats ], our 55+ years of researches from
+ past dedicated explorers and from currently living students produce rated qualities of 
+ Evolution or Degeneration coming from innumerable paths of Diversities where [Y X F]levels
+ for #Samadhi (Y), transcendental #Awareness (X), and Spatial Intelligence from complex 
+ Fibonacci (F) are Domain Specific Language (DSL) empirically rated by past and current living
+ explorers using language in LLM AI. This part is designed to collect data of community 
+ intelligence and one's private data for custom modeling. The [y x f]_dimension pin-point the 
+ possible acjievement in Peace / Silence (y_dimension) in transcendental Awarenes(x_dimension)
+ of one's custom Spatial (f_dimension) Intelligence: 
  
    Ylevels: "Y 0: Peace" =  0, "Y+1: Tranquility" = 1, "Y+2: Equanimity" = 1,
      "Y+3: Purity" = 2, "Y+4: Selfless" = 3, "Y+5: NonThingness" = 5  (Gotama's impass - 
@@ -60,7 +62,7 @@
  Naturally qualified humanitas at [ "Y 0" / "X 0" / "F 0"  = 0 ] has #Balanced trait from
  tainted senses with innate infrastructure to be on the No-Conflict consciousness [X Y]
  orthogonal to the Inside [Y F] and Outside [X F] planes of conflicting consciousness. The
- ascending rating on the No-Conflict plane of consciousness are observable traits of having
+ ascending rating on the No-Conflict plane of consciousness are manifested traits of having
  "T+1: #Intuition" (from "Y+1: Tranquility" Inside and "X+1: HonNhien" Outside of 
  "F+1: EquanimityAwareness"), "T+2: #Care" (thank to "Y+2: Equanimity" Inside capable of 
  "X+2: ManagingFreshness" Outside of F+2: PurityAwareness), "T+3: #Honesty" (naturally from 
@@ -83,7 +85,7 @@
  "X-7: ClingingThought" visibly observable in US and EU geo-politics of dominance.
  
  Observable Signs of #SmartPointers pointing to listed visible #Traits have been glimpsed by
- past and present dedicated explorers from their plane of No-Conflict consciousness:
+ past and present dedicated explorers from this plane of No-Conflict consciousness:
  
    #SmartPointers: #EmptyTheContent, #DhyanaSamadhi, #Samadhi, #Awareness, #Prajna,
      #AwarenessPrajna, #SamadhiPrajna, #PrajnaTIP1, #PrajnaTIP2 where the trait 
@@ -107,26 +109,28 @@
   standardized and statistically tested in LLM (Large Language Model) of private data 
   available for scientific researches.
 
-  We generalize the persona for big corporation important person to (1) clean up tainted 
-  senses and (2) cultivate required #Traits for its What-Count culture. The function of 
-  "cleaning" and required "cultivating" are the core of the persona HR strategies. In this 
-  sense, the required #Traits are its core Values (e.g. #Truth >< #Honesty >< #Care ><) in
-  execution. This part will be standardized and open-sources for possible value-added
-  solutions in x_traits, y_pointers, [f x y]_dimensions : vectors instead of i32.
+  A persona is a legal entity which can be a person, a family, a community, a company, etc.
+  We generalize the persona to (1) clean up tainted senses in decisions, and (2) cultivate 
+  required #Traits for its What-Count culture. The function of "cleaning" and required
+  "cultivating" are the core of HR strategies. In this sense, the required #Traits are its 
+  core Values (e.g. #Truth >< #Honesty >< #Care ><) in execution. This part will be 
+  standardized and open-sources for possible value-added solutions in x_traits, y_pointers, 
+  [f x y]_dimensions : vectors of complex value instead of i32.
   
   We can drill down in sub divisions of src/persona.rs forming src/persona/awareness.rs etc,
   or even drilled down src/persona/awareness/awareness_type.rs for modules at different
   awareness levels and use crate::persona::Awareness::Freshness
 */
 
+// for building the structure and determining one's possible level for suggested cultivation
 #[derive(Debug)]
 pub struct InnerSpace {	// InnerSpace from available dimensions to custom evaluation
 
   // Kp Signed Posts or Gotama Jhanas or Right #Samadhi
   pub y_dimension: Vec<i32>,	// = vec![0, 1, 2, 3, 4, 5, 6, -1, -2, -3, -4, -5, -6],
-  // HuiNeng #WuNien or KP #Awareness
+  // HuiNeng #WuNien or Kp #Awareness
   pub x_dimension: Vec<i32>, // = vec![0, 1, 2, 3, 4, 5, 6, 7, -1, -2, -3, -4, -5, -6, -7],
-  // KP processes of #EmptyTheContent from HuiNeng three Nots Then What from KP three Haves
+  // Kp processes of #EmptyTheContent from HuiNeng three Nots Then What from Kp three Haves
   pub f_dimension: Vec<i32>,//vec![0, 1, 2, 3, 4, 5, 6, 7, 8, -1, -2, -3, -4, -5, -6, -7, -8] 
   
   // The rated observable #Traits and #SmartPointers from attached to balanced to detached
@@ -425,7 +429,7 @@ pub fn build_inner_space (_x: Vec<i32>, _y: Vec<i32>, _f: Vec<i32>) -> InnerSpac
   let p8_prajna_tip1: Vec<i32> = Vec::new();
   let p9_prajna_tip2: Vec<i32> = Vec::new();
   
-  // new evaluation  of InnerSpace
+  // evaluation  of InnerSpace
   
   let mut _y = y_dimension;
   let mut _x = x_dimension;
@@ -445,7 +449,7 @@ pub fn build_inner_space (_x: Vec<i32>, _y: Vec<i32>, _f: Vec<i32>) -> InnerSpac
   let mut _p8 = p8_prajna_tip1;
   let mut _p9 = p9_prajna_tip2;
 
- // rebuild the relevant dimensions according to open standarded proven researches
+ // relevant dimensions according to open standarded proven researches
  
   let mut y = HashMap::new(); // levels of y_dimension
   y.insert(0, String::from("Y 0: Peace"));         // =  0 qualifies humanitas
