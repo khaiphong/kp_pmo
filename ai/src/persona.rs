@@ -115,21 +115,20 @@
   "cultivating" are the core of HR strategies. In this sense, the required #Traits are its 
   core Values (e.g. #Truth >< #Honesty >< #Care ><) in execution. This part will be 
   standardized and open-sources for possible value-added solutions in x_traits, y_pointers, 
-  [f x y]_dimensions : vectors of complex value instead of i32.
-  
-  We can drill down in sub divisions of src/persona.rs forming src/persona/awareness.rs etc,
+  [f x y]_dimensions : vectors of complex value instead of i32. We can drill down in sub divisions of src/persona.rs forming src/persona/awareness.rs etc,
   or even drilled down src/persona/awareness/awareness_type.rs for modules at different
   awareness levels and use crate::persona::Awareness::Freshness
   
   On top of the struct InnerSpace and associated types required for Fibonacci and Lucas
   complex possible data, AI predictions versus custom modeling the persona, and their
   implementations connected to different user types, enum can encode meaning along with data:
-  Xtraits, Xlevels, YPointers, Ylevels, #OneToDependent. We use these enums and their
+  Xtraits, Xlevels, YPointers, Ylevels, Flevels, #OneToDependent. We use these enums and their
   implementations for specialized searches.
   
-  Branching from #OneToDependent, we have node types #FourFoldTruth, #GodKingdom, #AtHome,
-  #TamingTheOx, #AwakeningBudh, #Morality, #Justice, etc, to shed light of community
-  Intelligence on the past vagued important meanings in philosophiens and religions.
+  Branching from #OneToDependent, we have node types #Budh, #FourFoldTruth, #GodKingdom,
+  #Sirr, #Monad, #AwakeningBudh #TamingTheOx, #Morality, #Justice, etc, to shed light of
+  community Intelligence on the past important but vague meanings from philosophies and
+  religions.
 */
 
 // for building the structure and determining one's possible level for suggested cultivation
