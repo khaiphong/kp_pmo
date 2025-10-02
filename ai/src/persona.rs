@@ -1162,6 +1162,12 @@ impl OneToDependent {
 
 pub mod four_fold_truth;    
 pub mod god_kingdom;
+pub mod sirr;  
+pub mod monad;
+pub mod awakening_budh;  
+pub mod taming_the_ox;  
+pub mod morality;
+pub mod justice;
 
 pub mod at_home;
 pub mod right_effort; 
@@ -1207,6 +1213,22 @@ impl GodKingdom { // methods to identify GodKingdom
     return "an accepted formal evaluation of GodKingdom".to_string()
   }
 }
+#[derive(Debug)]
+pub struct Sirr; // a unit-like node
+impl Sirr { // methods to identify Sirr
+  pub fn kp_sirr(&self) -> String { // f(_x,_y) for Inter-Realm
+    return "an accepted formal evaluation of Sirr".to_string()
+  }
+}
+#[derive(Debug)]
+pub struct Monad; // a unit-like node
+impl Monad { // methods to identify Monad
+  pub fn kp_monad(&self) -> String { // f(_x,_y) for Inter-Realm
+    return "an accepted formal evaluation of Monad".to_string()
+  }
+}
+
+
 
 #[derive(Debug)]
 pub struct AtHome; // a unit-like node
