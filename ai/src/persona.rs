@@ -125,8 +125,8 @@
   Xtraits, Xlevels, YPointers, Ylevels, Flevels, #OneToDependent. We use these enums and their
   implementations for specialized searches.
   
-  Branching from #OneToDependent, we have node types #Budh, #FourFoldTruth, #GodKingdom,
-  #Sirr, #Monad, #AwakeningBudh #TamingTheOx, #Morality, #Justice, etc, to shed light of
+  Branching from #OneToDependent, we have node types #FourFoldTruth, #GodKingdom, Sirr,
+  #Monad, #AwakeningBudh, #TamingTheOx, #Morality, #Justice, etc, to shed light of
   community Intelligence on the past important but vague meanings from philosophies and
   religions.
 */
