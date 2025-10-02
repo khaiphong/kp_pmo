@@ -1115,6 +1115,8 @@ fn f_evaluation(f: HashMap<i32, String>) -> Vec<i32> {
     return vec![0]; // rated complex Fibinacci level
 }
 
+
+
 #[derive(Debug)]
 pub enum OneToDependent { 
   Oneness(String),          // Oneness >< Diversities
@@ -1140,10 +1142,7 @@ pub enum OneToDependent {
   Le(String),     
   Tri(String),
   Tin(String),  
-  
-  Morality(String),         // Falun  
-  Patience(String), 
-  
+    
   // Vedic system "the hubs to receive, assimilate, and distribute life energies”
   RootChakra(String),		// Muladhara - 		red
   SacralChakra(String),		// Svadhishthana - 	orange
