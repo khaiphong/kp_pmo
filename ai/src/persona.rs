@@ -120,6 +120,16 @@
   We can drill down in sub divisions of src/persona.rs forming src/persona/awareness.rs etc,
   or even drilled down src/persona/awareness/awareness_type.rs for modules at different
   awareness levels and use crate::persona::Awareness::Freshness
+  
+  On top of the struct InnerSpace and associated types required for Fibonacci and Lucas
+  complex possible data, AI predictions versus custom modeling the persona, and their
+  implementations connected to different user types, enum can encode meaning along with data:
+  Xtraits, Xlevels, YPointers, Ylevels, #OneToDependent. We use these enums and their
+  implementations for specialized searches.
+  
+  Branching from #OneToDependent, we have node types #FourFoldTruth, #GodKingdom, #AtHome,
+  #TamingTheOx, #AwakeningBudh, #Morality, #Justice, etc, to shed light of community
+  Intelligence on the past vagued important meanings in philosophiens and religions.
 */
 
 // for building the structure and determining one's possible level for suggested cultivation
@@ -632,7 +642,8 @@ pub fn build_inner_space (_x: Vec<i32>, _y: Vec<i32>, _f: Vec<i32>) -> InnerSpac
 //  println!("{namespace:?}"); 
   
 
-  // dynamic between one's evaluation and the Kp prediction  
+  // one's evaluation versus the Kp prediction: associated function dependent on activies, not
+  // self to custom rate the persona  
   _y = y_evaluation(y); // transcendental Inner Peace based on the outcomes in engaged living
   _x = x_evaluation(x); // transcendental Awareness based on self evaluations and assessments
   _f = f_evaluation(f); // system evaluation of the persona states and stock of #Prajna
@@ -824,7 +835,7 @@ fn t_evaluation(t: HashMap<i32, String>) -> Vec<i32> { // return evaluated value
     return vec![0]; // rated level of Intuition #Balanced
 }
 
-/*  
+/*
   pub enum Xtraits {Truth, Honesty,} struct Traits {kind: Xtraits, note: String, rating: i32}
   let _truth = Traits {kind: Xtraits::#Truth, rightclick: String::from("The trait of two-ways
   communications between Oneness >< Diversities"),};
