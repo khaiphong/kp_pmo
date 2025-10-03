@@ -1147,8 +1147,8 @@ pub enum OneToDependent {
   
   FourFoldTruth(String),	// of Dukkha - Epistemic Objective
   GodKingdom(String),		// within - Epistemic Objective 
-  Sirr(String)				// of sufi
-  Monad(Strinbg)			// of Jew
+  Sirr(String),				// of sufi
+  Monad(Strinbg),			// of Jew
   
   AwakeningBudh(String),	// based of measurable Meritocracy
   TamingTheOx(String),		// TamingTheOx - Epistemic Objective
