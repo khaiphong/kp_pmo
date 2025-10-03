@@ -121,9 +121,11 @@
   
   On top of the struct InnerSpace and associated types required for Fibonacci and Lucas
   complex possible data, AI predictions versus custom modeling the persona, and their
-  implementations connected to different user types, enum can encode meaning along with data:
-  Xtraits, Xlevels, YPointers, Ylevels, Flevels, #OneToDependent. We use these enums and their
-  implementations for specialized searches.
+  implementations connected to different user types such as - qualified InnerSpace for 
+  required InterRealm, for a family or an organization, for foreign affairs or national
+  target development as a legal formal entity -  enum can encode meaning along with data:
+  Xtraits, Xlevels, YPointers, Ylevels, Flevels, #OneToDependent. We use these enums and
+  their implementations for specialized searches.
   
   Branching from #OneToDependent, we have node types #FourFoldTruth, #GodKingdom, Sirr,
   #Monad, #AwakeningBudh, #TamingTheOx, #Morality, #Justice, etc, to shed light of
