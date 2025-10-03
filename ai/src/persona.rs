@@ -891,6 +891,11 @@ pub enum Xtraits {
 
 */
 
+/*
+  The following enums [ Xtraits, Xlevels, Ypointers, Ylevels, Flevels, and OneToDependent ] 
+  and their implementations are used for specialized searches.
+*/
+
 #[derive(Debug)]
 pub enum Xtraits {
   Truth(String),			// use cosmic energy
@@ -928,21 +933,31 @@ pub enum Xlevels { // type behavior based on its traits and its rated major boun
  the visible trait of #KindnessEmpathy defined in Latin humanitas. This is Vietnamese KienTanh
  to (1) claim one's Dignity of Human Rights protected by modern society, then (2) DISCOVER
  and SHARE underlying natural laws to personally verify statistically significant epistemic
- objectives such as Gotama's #FourFoldTruth of Dukkha, Jesus's #GodKingdom within, Latin
- humanitas, #TamingTheOx; so are following Ypointers.
+ objectives from indescribable "One" to "Diversities of Dependent" and back to "One" of
+ "ThenWhat" to personally verify the worthy outcomes in Detoxifications of tainted senses.
+ That #OneToDependent can be used to statistically verify the measurable #Truth such as the 
+ modified #FourFoldTruth of Gotama Dukkha, #GodKingdom from within of Jesus interpreted in
+ Gnostic rather than from the dark sides of all Christian Churches, "#Sirr" from muslims
+ rather than the dark sides from all muslim churches, the "#Monad" from Jewish rather than
+ the priviledged self of "Greed and Violent God", the meaning of Latin humanitas,
+ #TamingTheOx, etc. 
  
+ Similarly, we can trace the following Ypointers to epistemic objectives of
+ worthy and rated #Traits from tainted senses of Indoctrinated > Veiled > influenced >
+ KindnessEmpathy > Balanced > Intuition > Care > Honesty  > Truth from measurable hard
+ evidences at the bottom line of one's Right or Wrong Efforts.
+
  All manifestations are conditioned and subjected to changes at Planck time. It has been
  proven in generative agenic AI that an optimal process can be engineered for a desired 
  manifestation happened. Based on recorded experiences of LaoTzu, Gotama, Jesus, Bodhidharma, 
  HuiNeng, etc, their states of positive manifestations y_dimension naturally produce smart
  pointers pointing to different observable traits in their qualities. "#Truth" is the
- identified "trait" in their qualities of [ Diversities >< Oneness / Hửu Không Vô Ngại / 
+ identified "trait" in the qualities of [ Diversities >< Oneness / Hửu Không Vô Ngại / 
  Self-Selfless Actualization ]. Observable smart pointers are reported pointers pointing to 
- the required traits in their observable evolution or negative traits leading to degeneration.
- Starting 
- from achievable qualities of these front-line soldiers, we identify smart pointers ready for 
- academia researches the structure and attributes of these smart pointers, then expose them 
- in # for public tweet and tweet-on-tweet further contribution in LLM models.
+ the required traits in observable evolution or negative traits leading to degeneration.
+ Starting from achievable qualities of these front-line soldiers, we identify smart pointers 
+ ready for academia researches the structure and attributes of these smart pointers, then 
+ expose them in # for public tweet and tweet-on-tweet further contribution in LLM models.
 
 
 //! Enforce QualifiedHumanitas for natural detachment of dhyana, then Samadhi for
@@ -1029,10 +1044,10 @@ pub enum Flevels { // type behavior based on its traits and its rated major boun
  necessary to accomplish some purpose. By defining # x_trais varied from #Indoctrinated
  to verifiable #Truth in ChangeManagement toward SmartPointers for the manifestation of 
  #Prajna in required focused event, we force each type (claimed method) implementing the 
- traits such as Falun to provide its custom and measurable processes in the method's body 
- to be verified by the community and AI. Knowledge graph is a study the Described focused 
- event and best possible outcomes honestly evaluated by the persona of personal learned 
- lessons relevant to the norm of the mass.
+ traits such as Christians, Muslims, Buddhists, Falun to provide its custom and measurable 
+ processes in the method's body to be verified by the community and AI. Knowledge graph is a 
+ study of the Described focused event and best possible outcomes honestly evaluated by the 
+ persona of personal learned lessons relevant to the norm of the mass.
 */
 // x_traits - make directories for the mods inside the persona
 pub mod truth;    
@@ -1050,7 +1065,10 @@ pub mod indoctrinated;
  pointers are data structures that act like a pointer but also have additional metadata and
  capabilities. Reference smart pointer type enables you to allow data to have multiple owners 
  by keeping track of the number of owners and, when no owners remain, cleaning up the data.
- This is a Kp tool for one-on-one consultation with dedicated front-line soldiers.
+ This is a Kp tool for one-on-one consultation with dedicated front-line soldiers by 
+ externalizing the SmartPointer process to database for batch processes of all owners in the
+ LLM model and customized individual processes PLUS the logs of consultations and the works
+ done.
 */
 // y_pointers - make directories for the mods inside the persona
 pub mod empty_the_content;  
@@ -1065,11 +1083,14 @@ pub mod prajnatip2;
 
 
 /*
-  y_evaluation and x_evaluation return evaluated value of one's Y and X types to be further
-  explored in these two dimensions that are inputs into the f_evaluation. We can make the
-  function fn evaluation<T>(HashMap<i32, String>) -> &[T] {} over type T. The evaluation will
-  return a reference to a value of the same type T which is the rated Fibonacci value of the
-  T dimension.
+  y_evaluation and x_evaluation return evaluated value of one's Y and X types - verifiable on
+  the hard facts at the bottom line of Right Efforts - to be further explored in these two 
+  dimensions that are inputs into the f_evaluation which is subjective based one's sensing on
+  WhatCount + personal DISCOVERED #Truth impact on one's quality of the consciousness. We can
+  make the function fn evaluation<T>(HashMap<i32, String>) -> &[T] {} over type T. The 
+  evaluation will return a reference to a value of the same type T which is the rated 
+  Fibonacci value of the T dimension. The f_evaluation, x_evaluation and y_evaluation can be
+  used to statistically test Kp original assumption at rated Fibonacci of [ f, x, y ].
 */
 fn y_evaluation(y: HashMap<i32, String>) -> Vec<i32> { // return evaluated value to the blockchain
 
@@ -1117,7 +1138,7 @@ fn f_evaluation(f: HashMap<i32, String>) -> Vec<i32> {
     return vec![0]; // rated complex Fibinacci level
 }
 
-
+--------
 
 #[derive(Debug)]
 pub enum OneToDependent { 
@@ -1125,15 +1146,14 @@ pub enum OneToDependent {
   Diversities(String),
   
   FourFoldTruth(String),	// of Dukkha - Epistemic Objective
-  GodKingdom(String),		// within - Epistemic Objective  
+  GodKingdom(String),		// within - Epistemic Objective 
+  Sirr(String)				// of sufi
+  Monad(Strinbg)			// of Jew
   
-  AtHome(String),			
-  RightEffort(String),
+  AwakeningBudh(String),	// based of measurable Meritocracy
   TamingTheOx(String),		// TamingTheOx - Epistemic Objective
-  RidingTheOx(String),
-  NonThingness(String),
-  TheSource(String),
-  AwakeningBudh(String),
+  Morality(String),
+  Justice(String),
     
   Heaven(String),           // I-Ching, LaoTzu
   Earth(String),  
