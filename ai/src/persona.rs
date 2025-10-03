@@ -1229,7 +1229,6 @@ impl Monad { // methods to identify Monad
 }
 
 
-
 #[derive(Debug)]
 pub struct AtHome; // a unit-like node
 impl AtHome { // methods to identify AtHome
