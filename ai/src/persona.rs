@@ -1191,14 +1191,6 @@ pub mod taming_the_ox;
 pub mod morality;
 pub mod justice;
 
-pub mod at_home;
-pub mod right_effort; 
-pub mod taming_the_ox;
-pub mod riding_the_ox;
-pub mod non_thingness;
-pub mod the_source;  
-pub mod awakening_budh; 
-
 pub mod heaven;    
 pub mod earth;
 pub mod people;
@@ -1208,9 +1200,6 @@ pub mod nghia;
 pub mod le;
 pub mod tri;
 pub mod tin; 
- 
-pub mod morality;  
-pub mod patience;
     
 pub mod root_chakra;
 pub mod sacral_chakra;
@@ -1249,20 +1238,11 @@ impl Monad { // methods to identify Monad
     return "an accepted formal evaluation of Monad".to_string()
   }
 }
-
-
 #[derive(Debug)]
-pub struct AtHome; // a unit-like node
-impl AtHome { // methods to identify AtHome
-  pub fn kp_at_home(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of AtHome".to_string()
-  }
-}
-#[derive(Debug)]
-pub struct RightEffort; // a unit-like node
-impl RightEffort { // methods to identify RightEffort
-  pub fn kp_right_effort(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of RightEffort".to_string()
+pub struct AwakeningBudh; // a unit-like node
+impl AwakeningBudh { // methods to identify in AwakeningBudh
+  pub fn kp_awakening_budh(&self) -> String { // f(_x,_y) for Inter-Realm
+    return "an accepted formal evaluation of AwakeningBudh".to_string()
   }
 }
 #[derive(Debug)]
@@ -1273,19 +1253,20 @@ impl TamingTheOx { // methods to identify TamingTheOx
   }
 }
 #[derive(Debug)]
-pub struct RidingTheOx; // a unit-like node
-impl RidingTheOx { // methods to identify RidingTheOx
-  pub fn kp_riding_the_ox(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of RidingTheOx".to_string()
+pub struct Morality; // a unit-like node
+impl Morality { // methods to identify Morality
+  pub fn kp_morality(&self) -> String { // f(_x,_y) for Morality
+    return "an accepted formal evaluation of Morality".to_string()
   }
 }
 #[derive(Debug)]
-pub struct NonThingness; // a unit-like node
-impl NonThingness { // methods to identify NonThingness
-  pub fn kp_non_thingness(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of NonThingness".to_string()
+pub struct Justice; // a unit-like node
+impl Justice { // methods to identify Justice
+  pub fn kp_justice(&self) -> String { // f(_x,_y) for Justice
+    return "an accepted formal evaluation of Justice".to_string()
   }
 }
+
 #[derive(Debug)]
 pub struct TheSource; // a unit-like node
 impl TheSource { // methods to identify TheSource
@@ -1293,6 +1274,7 @@ impl TheSource { // methods to identify TheSource
     return "an accepted formal evaluation of TheSource".to_string()
   }
 }
+
 #[derive(Debug)]
 pub struct AwakeningBudh; // a unit-like node
 impl AwakeningBudh { // methods to identify AwakeningBudh
