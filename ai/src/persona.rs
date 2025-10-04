@@ -125,8 +125,10 @@
   implementations connected to different user types - such as qualified InnerSpace for 
   required InterRealm, for a family or an organization, for foreign affairs or national
   target development as a legal formal entity -  enum can encode meaning along with data:
-  Xtraits, Xlevels, YPointers, Ylevels, Flevels, #OneToDependent. We use these enums and
-  their implementations for specialized searches.
+  Xtraits, Xlevels, Ypointers, Ylevels, Flevels, OneToDependents. We use these enums and
+  their implementations for specialized searches of related attributes from enum Xtraits,
+  Ypointers, OneToDependents while the workshops of these attributes are done at the modules
+  of their struct types.
   
   Branching from #OneToDependent, we have node types #FourFoldTruth, #GodKingdom, Sirr,
   #Monad, #AwakeningBudh, #TamingTheOx, #Morality, #Justice, etc, to shed light of
@@ -1182,7 +1184,7 @@ fn f_evaluation(f: HashMap<i32, String>) -> Vec<i32> {
 --------
 
 #[derive(Debug)]
-pub enum OneToDependent { 
+pub enum OneToDependents { 
   Oneness(String),          // Oneness >< Diversities
   
   // Diversities(String),
@@ -1220,7 +1222,7 @@ pub enum OneToDependent {
 // Claimed solutions to be verified for either #Truth or hallucination / imagination
 // The impl demands verifiable solution from the variant on duality plane of conflicting 
 // consciousness to No-Conflict consciousness of #EmptyTheContent and ThenWhat when back
-impl OneToDependent {
+impl OneToDependents {
 //    fn verified(&self) {
        // method body would be defined here
 //    }
