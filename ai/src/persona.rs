@@ -130,7 +130,7 @@
   
   Branching from #OneToDependent, we have node types #FourFoldTruth, #GodKingdom, Sirr,
   #Monad, #AwakeningBudh, #TamingTheOx, #Morality, #Justice, etc, to shed light of
-  community Intelligence on the past important but vague meanings from philosophies and
+  community Intelligence on the past important but vague meanings in philosophies and
   religions.
 */
 
@@ -1184,7 +1184,8 @@ fn f_evaluation(f: HashMap<i32, String>) -> Vec<i32> {
 #[derive(Debug)]
 pub enum OneToDependent { 
   Oneness(String),          // Oneness >< Diversities
-  Diversities(String),
+  
+  // Diversities(String),
   
   FourFoldTruth(String),	// of Dukkha - to be proven as Epistemic Objective
   GodKingdom(String),		// within - to be proven as Epistemic Objective 
@@ -1206,8 +1207,7 @@ pub enum OneToDependent {
   Tri(String),
   Tin(String),  
     
-  // Vedic system "the hubs to receive, assimilate, and distribute life energies”
-  // Energy interactions in Oneness >< Diversities
+  // Vedic hubs to receive, assimilate, and distribute life energies: Oneness >< Diversities
   RootChakra(String),		// Muladhara - 		red
   SacralChakra(String),		// Svadhishthana - 	orange
   ThirdChakra(String),		// Mapipura -		yellow
