@@ -1186,27 +1186,28 @@ pub enum OneToDependent {
   Oneness(String),          // Oneness >< Diversities
   Diversities(String),
   
-  FourFoldTruth(String),	// of Dukkha - Epistemic Objective
-  GodKingdom(String),		// within - Epistemic Objective 
-  Sirr(String),				// of sufi
-  Monad(Strinbg),			// of Jew
+  FourFoldTruth(String),	// of Dukkha - to be proven as Epistemic Objective
+  GodKingdom(String),		// within - to be proven as Epistemic Objective 
+  Sirr(String),				// of sufi to be proven as Epistemic Objective
+  Monad(Strinbg),			// of Jew to be proven as Epistemic Objective
   
   AwakeningBudh(String),	// based of measurable Meritocracy
-  TamingTheOx(String),		// TamingTheOx - Epistemic Objective
+  TamingTheOx(String),		// TamingTheOx - to be proven as Epistemic Objective
   Morality(String),
   Justice(String),
     
-  Heaven(String),           // I-Ching, LaoTzu
+  Heaven(String),           // I-Ching, LaoTzu to be proven as Epistemic Objective
   Earth(String),  
   People(String), 
   
-  Nhan(String),             // KungTzu
-  Nghia(String),  
+  Nhan(String),             // KungTzu - values of these principles from
+  Nghia(String),  			// Oneness >< Diversities
   Le(String),     
   Tri(String),
   Tin(String),  
     
   // Vedic system "the hubs to receive, assimilate, and distribute life energies”
+  // Energy interactions in Oneness >< Diversities
   RootChakra(String),		// Muladhara - 		red
   SacralChakra(String),		// Svadhishthana - 	orange
   ThirdChakra(String),		// Mapipura -		yellow
@@ -1217,7 +1218,7 @@ pub enum OneToDependent {
 }
 
 // Claimed solutions to be verified for either #Truth or hallucination / imagination
-// The impl demand verifiable solution from the variant on duality plain of conflicting 
+// The impl demands verifiable solution from the variant on duality plane of conflicting 
 // consciousness to No-Conflict consciousness of #EmptyTheContent and ThenWhat when back
 impl OneToDependent {
 //    fn verified(&self) {
