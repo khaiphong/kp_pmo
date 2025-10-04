@@ -115,7 +115,8 @@
   "cultivating" are the core of HR strategies. In this sense, the required #Traits are its 
   core Values (e.g. #Truth >< #Honesty >< #Care ><) in execution. This part will be 
   standardized and open-sources for possible value-added solutions in x_traits, y_pointers, 
-  [f x y]_dimensions : vectors of complex value instead of i32. We can drill down in sub divisions of src/persona.rs forming src/persona/awareness.rs etc,
+  [f x y]_dimensions : vectors of complex value instead of i32. We can drill down in sub
+  divisions of src/persona.rs forming src/persona/awareness.rs etc,
   or even drilled down src/persona/awareness/awareness_type.rs for modules at different
   awareness levels and use crate::persona::Awareness::Freshness
   
@@ -908,6 +909,14 @@ pub enum Xtraits {
   Veiled(String),			// hoax, fooled
   Indoctrinated(String),	// visible in BindingWord, BindingImage, ClingingThought
 }
+// Claimed solutions to be verified for rated quality of the variant
+// The impl demands  scientifically cultivable variant for its movement from one to another  
+// connected to the rated Fibonacci complex number
+impl Xtraits {
+//    fn verified(&self) {
+       // method body would be defined here
+//    }
+}
 // for outside contributions
 #[derive(Debug)]
 pub enum Xlevels { // type behavior based on its traits and its rated major bounded one
@@ -925,6 +934,14 @@ pub enum Xlevels { // type behavior based on its traits and its rated major boun
   BindingWord(String),			// #Indoctrinated
   BindingImage(String),			// #Indoctrinated
   ClingingThought(String),		// #Indoctrinated
+}
+// Claimed solutions to be verified for rated quality of the variant
+// The impl demands  scientifically cultivable variant for its movement from one to another  
+// connected to the rated Fibonacci complex number
+impl Xlevels {
+//    fn verified(&self) {
+       // method body would be defined here
+//    }
 }
 
 /*
@@ -1001,6 +1018,14 @@ pub enum Ypointers {
   PrajnaTIP1(String),			// from Kp in Sound technologies
   PrajnaTIP2(String),			// from Kp in Empathy
 }
+// Claimed solutions to be verified for rated quality of the variant
+// The impl demands  scientifically cultivable variant for its movement from one to another  
+// connected to the rated Fibonacci complex number
+impl Ypointers {
+//    fn verified(&self) {
+       // method body would be defined here
+//    }
+}
 // for outside contributions
 #[derive(Debug)]
 pub enum Ylevels { // type behavior based on its traits and its rated major bounded one
@@ -1016,6 +1041,14 @@ pub enum Ylevels { // type behavior based on its traits and its rated major boun
   NoConscience(String),	    // #Indoctrinated
   InflictedFear(String),    // #Indoctrinated
   Vampire(String),		    // #Indoctrinated
+}
+// Claimed solutions to be verified for rated quality of the variant
+// The impl demands  scientifically cultivable variant for its movement from one to another  
+// connected to the rated Fibonacci complex number
+impl Ylevels {
+//    fn verified(&self) {
+       // method body would be defined here
+//    }
 }
 
 // for outside contributions
@@ -1037,6 +1070,14 @@ pub enum Flevels { // type behavior based on its traits and its rated major boun
   Smelly1(String),						// esoteric Degenerated
   Smelly2(String),						// esoteric Vampire
   Smelly3(String),						// esoteric X-of-Prey
+}
+// Claimed solutions to be verified for rated quality of the variant
+// The impl demands  scientifically cultivable variant for its movement from one to another  
+// connected to the rated Fibonacci complex number
+impl Flevels {
+//    fn verified(&self) {
+       // method body would be defined here
+//    }
 }
 
 /*
@@ -1176,6 +1217,8 @@ pub enum OneToDependent {
 }
 
 // Claimed solutions to be verified for either #Truth or hallucination / imagination
+// The impl demand verifiable solution from the variant on duality plain of conflicting 
+// consciousness to No-Conflict consciousness of #EmptyTheContent and ThenWhat when back
 impl OneToDependent {
 //    fn verified(&self) {
        // method body would be defined here
