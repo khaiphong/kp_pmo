@@ -130,7 +130,7 @@
   Ypointers, OneToDependents while the workshops of these attributes are done at the modules
   of their struct types.
   
-  Branching from #OneToDependent, we have node types #FourFoldTruth, #GodKingdom, Sirr,
+  Branching from #OneToDependents, we have node types #FourFoldTruth, #GodKingdom, Sirr,
   #Monad, #AwakeningBudh, #TamingTheOx, #Morality, #Justice, etc, to shed light of
   community Intelligence on the past important but vague meanings in philosophies and
   religions.
