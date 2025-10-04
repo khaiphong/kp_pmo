@@ -24,7 +24,7 @@
  language to model the reversed engineering of consciousness states actually known by living
  students, and (3) develop custom agentic LLM AI to enable dynamic interactions between 
  [ normative Intelligence >< positive Intelligence ] within individual legal user (persona) 
- and community Intelligence of specialized domains and fields.
+ and community Intelligence of general and specialized domains and fields.
  
    Ylevels: "Y 0: Peace" =  0, "Y+1: Tranquility" = 1, "Y+2: Equanimity" = 1,
      "Y+3: Purity" = 2, "Y+4: Selfless" = 3, "Y+5: NonThingness" = 5  (Gotama's impass - 
