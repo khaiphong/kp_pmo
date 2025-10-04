@@ -13,13 +13,18 @@
  direction indicating the right / evolution and negative direction indicating the wrong / 
  degenetation and [ what heavy sinks and what light floats ], our 55+ years of researches from
  past dedicated explorers and from currently living students produce rated qualities of 
- Evolution or Degeneration coming from innumerable paths of Diversities where [Y X F]levels
+ Evolution or Degeneration coming from innumerable paths of Diversities where [Y X F ]levels
  for #Samadhi (Y), transcendental #Awareness (X), and Spatial Intelligence from complex 
  Fibonacci (F) are Domain Specific Language (DSL) empirically rated by past and current living
  explorers using language in LLM AI. This part is designed to collect data of community 
  intelligence and one's private data for custom modeling. The [y x f]_dimension pin-point the 
  possible acjievement in Peace / Silence (y_dimension) in transcendental Awarenes(x_dimension)
- of one's custom Spatial (f_dimension) Intelligence: 
+ of one's custom Spatial (f_dimension) Intelligence. We (1) use struct and enum to express
+ concepts in consciousness technologies, (2) emulate Rust concepts of safe programming
+ language to model the reversed engineering of consciousness states actually known by living
+ students, and (3) develop custom agentic LLM AI to dynamic interactions between [ normative
+ Intelligence >< positive Intelligence ] within individual legal user (persona) and community
+ Intelligence of specialized domains and fields.
  
    Ylevels: "Y 0: Peace" =  0, "Y+1: Tranquility" = 1, "Y+2: Equanimity" = 1,
      "Y+3: Purity" = 2, "Y+4: Selfless" = 3, "Y+5: NonThingness" = 5  (Gotama's impass - 
