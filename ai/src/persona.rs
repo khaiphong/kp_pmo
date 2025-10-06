@@ -135,10 +135,13 @@
   Ypointers, OneToDependents while the workshops of these attributes are done at the modules
   of their struct types.
   
-  Branching from #OneToDependents, we have node types #FourFoldTruth, #GodKingdom, Sirr,
-  #Monad, #AwakeningBudh, #TamingTheOx, #Morality, #Justice, etc, to shed light of
-  community Intelligence on the past important but vague meanings in philosophies and
-  religions.
+  Branching from #OneToDependents, we have node types #FourFoldTruth, #GodKingdom (Gnostic
+  https://www.youtube.com/watch?v=-mybfas-ac8), Sirr (
+  https://www.youtube.com/watch?v=ClESc4mIpv8), #Monad (
+  https://www.youtube.com/watch?v=MlMJPpPY-js), #AwakeningBudh, #TamingTheOx (
+  https://blog.khaiphong.io/2023/09/list-of-figures-and-tables.html#Figure_5), #Morality,
+  #Justice, etc, to shed light of community Intelligence on the past important but vague
+  meanings in philosophies and religions.
 */
 
 // for building the structure and determining one's possible level for suggested cultivation
@@ -282,7 +285,7 @@ impl Care { // methods to identify Care
 }
 
 #[derive(Debug)]
-pub struct Intuition; // a unit-like node
+pub struct Intuition; // a unit-like node https://www.youtube.com/watch?v=m2pDxNUyqVY
 impl Intuition { // methods to identify Intuition
   pub fn kp_intuition(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of Intuition".to_string()
