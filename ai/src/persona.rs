@@ -135,8 +135,9 @@
   Ypointers, OneToDependents while the workshops of these attributes are done at the modules
   of their struct types.
   
-  Branching from #OneToDependents, we have node types #FourFoldTruth, #GodKingdom (Gnostic
-  https://www.youtube.com/watch?v=-mybfas-ac8), Sirr (
+  Branching from #OneToDependents, we have node types #FourFoldTruth (
+  https://blog.khaiphong.io/2023/09/a-light-out-of-darkness.html#Section_1.2), #GodKingdom
+  (Gnostic https://www.youtube.com/watch?v=-mybfas-ac8), Sirr (
   https://www.youtube.com/watch?v=ClESc4mIpv8), #Monad (
   https://www.youtube.com/watch?v=MlMJPpPY-js), #AwakeningBudh, #TamingTheOx (
   https://blog.khaiphong.io/2023/09/list-of-figures-and-tables.html#Figure_5), #Morality,
