@@ -1,3 +1,0 @@
-# consulting
-
-Digital board room.
