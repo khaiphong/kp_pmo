@@ -183,32 +183,32 @@ pub struct InnerSpace {	// InnerSpace from available dimensions to custom evalua
 }
 
 // Implementations branched to different mod
-pub mod ydimension; // states of consciousness driving observable Activities and Relationships
+//pub mod ydimension; // states of consciousness driving observable Activities and Relationships
 
-pub mod xdimension; // states of consciousness varying from attachment to detachment
+//pub mod xdimension; // states of consciousness varying from attachment to detachment
 
-pub mod fdimension; // other relevant factors making up the states and stock of the persona
+//pub mod fdimension; // other relevant factors making up the states and stock of the persona
 
-pub mod xtraits;   // observable visible traits of one's #Awareness in engaged living
+//pub mod xtraits;   // observable visible traits of one's #Awareness in engaged living
 
-pub mod ypointers; // cultivations to make the description closed to the described
+//pub mod ypointers; // cultivations to make the description closed to the described
 
-pub mod p1empty_the_content;
+//pub mod p1empty_the_content;
 
-pub mod p2dhyana_samadhi;
+//pub mod p2dhyana_samadhi;
 
-pub mod p3samadhi;
+//pub mod p3samadhi;
 
-pub mod p4awareness;
+//pub mod p4awareness;
 
-pub mod p5prajna;
+//pub mod p5prajna;
 
-pub mod p6awareness_prajna;
+//pub mod p6awareness_prajna;
 
-pub mod p7samadhi_prajna;
+//pub mod p7samadhi_prajna;
 
-pub mod p8prajna_tip1;
-pub mod p9prajna_tip2;
+//pub mod p8prajna_tip1;
+//pub mod p9prajna_tip2;
 
 /*
   Dynamic interactions between normative and positive AI of custom modeling the
@@ -1102,15 +1102,15 @@ impl Flevels {
  persona of personal learned lessons relevant to the norm of the mass.
 */
 // x_traits - make directories for the mods inside the persona
-pub mod truth;    
-pub mod honesty;
-pub mod care;
-pub mod intuition; 
-pub mod balanced;
-pub mod kindnessempathy;
-pub mod influenced;
-pub mod veiled;  
-pub mod indoctrinated;   
+//pub mod truth;    
+//pub mod honesty;
+//pub mod care;
+//pub mod intuition; 
+//pub mod balanced;
+//pub mod kindnessempathy;
+//pub mod influenced;
+//pub mod veiled;  
+//pub mod indoctrinated;   
 
 /*
  Pointer is a general concept for a variable that contains an address in memory. Smart 
@@ -1123,15 +1123,15 @@ pub mod indoctrinated;
  done.
 */
 // y_pointers - make directories for the mods inside the persona
-pub mod empty_the_content;  
-pub mod dhyanasamadhi;  
-pub mod samadhi;  
-pub mod awareness; 
-pub mod prajna;
-pub mod awarenessprajna;
-pub mod samadhiprajna;
-pub mod prajnatip1;     
-pub mod prajnatip2;
+//pub mod empty_the_content;  
+//pub mod dhyanasamadhi;  
+//pub mod samadhi;  
+//pub mod awareness; 
+//pub mod prajna;
+//pub mod awarenessprajna;
+//pub mod samadhiprajna;
+//pub mod prajnatip1;     
+//pub mod prajnatip2;
 
 
 /*
@@ -1190,7 +1190,7 @@ fn f_evaluation(f: HashMap<i32, String>) -> Vec<i32> {
     return vec![0]; // rated complex Fibinacci level
 }
 
---------
+
 
 #[derive(Debug)]
 pub enum OneToDependents { 
@@ -1237,32 +1237,32 @@ impl OneToDependents {
 //    }
 }
 
-pub mod four_fold_truth;    
-pub mod god_kingdom;
-pub mod sirr;  
-pub mod monad;
-pub mod awakening_budh;  
-pub mod taming_the_ox;  
-pub mod morality;
-pub mod justice;
+//pub mod four_fold_truth;    
+//pub mod god_kingdom;
+//pub mod sirr;  
+//pub mod monad;
+//pub mod awakening_budh;  
+//pub mod taming_the_ox;  
+//pub mod morality;
+//pub mod justice;
 
-pub mod heaven;    
-pub mod earth;
-pub mod people;
+//pub mod heaven;    
+//pub mod earth;
+//pub mod people;
 
-pub mod nhan; 
-pub mod nghia;
-pub mod le;
-pub mod tri;
-pub mod tin; 
+//pub mod nhan; 
+//pub mod nghia;
+//pub mod le;
+//pub mod tri;
+//pub mod tin; 
     
-pub mod root_chakra;
-pub mod sacral_chakra;
-pub mod third_chakra; 
-pub mod heart_chakra;
-pub mod throat_chakra;
-pub mod third_eye;
-pub mod crown_chakra;  
+//pub mod root_chakra;
+//pub mod sacral_chakra;
+//pub mod third_chakra; 
+//pub mod heart_chakra;
+//pub mod throat_chakra;
+//pub mod third_eye;
+//pub mod crown_chakra;  
 
 
 #[derive(Debug)]

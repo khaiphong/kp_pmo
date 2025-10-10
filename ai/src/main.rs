@@ -102,37 +102,37 @@ pub mod activity;
 pub mod place;
 pub mod iamx;
 
-use crate::persona::{ OneToDependent, Xlevels, Ylevels, Flevels, Xtraits, Ypointers, 
-  x_traits::{KpT}, y_pointers::{KpP}, p1empty_the_content::{KpP1}, p2dhyana_samadhi::{KpP2},
-  p3samadhi::{KpP3}, p4awareness::{KpP4}, p5prajna::{KpP5}, p6awareness_prajna::{KpP6},
-  p7samadhi_prajna::{KpP7}, p8prajna_tip1::{KpP8}, p9prajna_tip2::{KpP9},
+//use crate::persona::{ OneToDependent, Xlevels, Ylevels, Flevels, Xtraits, Ypointers, 
+//  x_traits::{KpT}, y_pointers::{KpP}, p1empty_the_content::{KpP1}, p2dhyana_samadhi::{KpP2},
+//  p3samadhi::{KpP3}, p4awareness::{KpP4}, p5prajna::{KpP5}, p6awareness_prajna::{KpP6},
+//  p7samadhi_prajna::{KpP7}, p8prajna_tip1::{KpP8}, p9prajna_tip2::{KpP9},
 
-  y_dimension::{KpY, TranscendentalMeditation, Vipassana},
-  x_dimension::{KpX, WuNien}, 
-  fdimension::{KpF, HuiNeng, Gotama},
+//  y_dimension::{KpY, TranscendentalMeditation, Vipassana},
+//  x_dimension::{KpX, WuNien}, 
+//  fdimension::{KpF, HuiNeng, Gotama},
 
   // LLM augmented with self-rating of traits x-dimension pointing to by SmartPointers
-  truth::{truth_outer_agent, truth_inner_agent}, 
-  honesty::{honesty_outer_agent, honesty_inner_agent}, 
-  care::{care_outer_agent, care_inner_agent}, 
-  intuition::{intuition_outer_agent, intuition_inner_agent},
-  balanced::{balanced_outer_agent, balanced_inner_agent},
-  kindnessempathy::{kindnessempathy_outer_agent, kindnessempathy_inner_agent},
-  influenced::{influenced_outer_agent, influenced_inner_agent},
-  veiled::{veiled_outer_agent, veiled_inner_agent},
-  indoctrinated::{indoctrinated_outer_agent, indoctrinated_inner_agent},
+//  truth::{truth_outer_agent, truth_inner_agent}, 
+//  honesty::{honesty_outer_agent, honesty_inner_agent}, 
+//  care::{care_outer_agent, care_inner_agent}, 
+//  intuition::{intuition_outer_agent, intuition_inner_agent},
+//  balanced::{balanced_outer_agent, balanced_inner_agent},
+//  kindnessempathy::{kindnessempathy_outer_agent, kindnessempathy_inner_agent},
+//  influenced::{influenced_outer_agent, influenced_inner_agent},
+//  veiled::{veiled_outer_agent, veiled_inner_agent},
+//  indoctrinated::{indoctrinated_outer_agent, indoctrinated_inner_agent},
 
   // LLM augmented with self-rating of Meditation / Samadhi y-dimension of SmartPointer
-  empty_the_content::{empty_the_content_outer_agent, empty_the_content_inner_agent},
-  dhyanasamadhi::{dhyanasamadhi_outer_agent, dhyanasamadhi_inner_agent},
-  samadhi::{samadhi_outer_agent, samadhi_inner_agent},
-  awareness::{awareness_outer_agent, awareness_inner_agent},
-  prajna::{prajna_outer_agent, prajna_inner_agent},
-  awarenessprajna::{awarenessprajna_outer_agent, awarenessprajna_inner_agent},
-  samadhiprajna::{samadhiprajna_outer_agent, samadhiprajna_inner_agent},
-  prajnatip1::{prajnatip1_outer_agent, prajnatip1_inner_agent},
-  prajnatip2::{prajnatip2_outer_agent, prajnatip2_inner_agent},
-};
+//  empty_the_content::{empty_the_content_outer_agent, empty_the_content_inner_agent},
+//  dhyanasamadhi::{dhyanasamadhi_outer_agent, dhyanasamadhi_inner_agent},
+//  samadhi::{samadhi_outer_agent, samadhi_inner_agent},
+//  awareness::{awareness_outer_agent, awareness_inner_agent},
+//  prajna::{prajna_outer_agent, prajna_inner_agent},
+//  awarenessprajna::{awarenessprajna_outer_agent, awarenessprajna_inner_agent},
+//  samadhiprajna::{samadhiprajna_outer_agent, samadhiprajna_inner_agent},
+//  prajnatip1::{prajnatip1_outer_agent, prajnatip1_inner_agent},
+//  prajnatip2::{prajnatip2_outer_agent, prajnatip2_inner_agent},
+//};
 
 /*
   Open-source LLM continuously trained with fresh data, custom by KpPlatform for its GAI
@@ -144,12 +144,12 @@ use crate::persona::{ OneToDependent, Xlevels, Ylevels, Flevels, Xtraits, Ypoint
   continuity of the consciousness, we have 8 levels of securities possible ONLY from 2025
   forward in the new Era of accountable "Inter-Realm Communications and Collaborations".
 */
-use crate::agi::public::{Granite, Grok, Llama, Phi, Kp};
+//use crate::agi::public::{Granite, Grok, Llama, Phi, Kp};
 
 // front-end persona facing services
-use crate::front::{ mu::{platform_message, service_message}, chat::{prompt, response},
-video::{in_stream, out_stream},
-};
+//use crate::front::{ mu::{platform_message, service_message}, chat::{prompt, response},
+//video::{in_stream, out_stream},
+//};
 
 /*
 each service (mu) has _platform_agent and _service_agent from AI whose funationalities ride on
@@ -158,16 +158,16 @@ while using the service in mu, chat, video templates, etc.
 */
 
 // back-end persona agent services
-use crate::back::{ mu::{mu_platform_agent, mu_service_agent}, chat::{chat_platform_agent, chat_service_agent}, video::{video_platform_agent, video_service_agent}, graph::{graph_platform_agent, graph_service_agent}, db::{db_platform_agent, db_service_agent}, hub::{hub_platform_agent, hub_service_agent}, plan::{plan_platform_agent, plan_service_agent},
-};
+//use crate::back::{ mu::{mu_platform_agent, mu_service_agent}, chat::{chat_platform_agent, chat_service_agent}, video::{video_platform_agent, video_service_agent}, graph::{graph_platform_agent, graph_service_agent}, db::{db_platform_agent, db_service_agent}, hub::{hub_platform_agent, hub_service_agent}, plan::{plan_platform_agent, plan_service_agent},
+//};
 
 // personal agent services
-use crate::relationship::{ family::{family_platform_agent, family_service_agent}, 
-profession::{profession_platform_agent, profession_service_agent}, 
-this_life::{this_life_platform_agent, this_life_service_agent},
-next_realm::{next_realm_platform_agent, next_realm_service_agent},
-worthy::{worthy_platform_agent, worthy_service_agent},
-};
+//use crate::relationship::{ family::{family_platform_agent, family_service_agent}, 
+//profession::{profession_platform_agent, profession_service_agent}, 
+//this_life::{this_life_platform_agent, this_life_service_agent},
+//next_realm::{next_realm_platform_agent, next_realm_service_agent},
+//worthy::{worthy_platform_agent, worthy_service_agent},
+//};
 
 use crate::persona::InnerSpace;
 use crate::persona::Traits;
@@ -192,11 +192,11 @@ use crate::persona::SamadhiPrajna;
 use crate::persona::PrajnaTIP1;
 use crate::persona::PrajnaTIP2;
 
-use crate::persona::FourFoldTruth;
+//use crate::persona::FourFoldTruth;
 use crate::persona::GodKingdom;
 
-use crate::persona::AtHome;
-use crate::persona::RightEffort;
+//use crate::persona::AtHome;
+//use crate::persona::RightEffort;
 use crate::persona::TamingTheOx;
 use crate::persona::RidingTheOx;
 use crate::persona::NonThingness;
