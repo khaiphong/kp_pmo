@@ -11,14 +11,14 @@
  Dependent, #Prajna / Kiến Tánh, Duyên Khởi, Bát Nhã"), via 
  https://blog.khaiphong.io/2023/09/list-of-figures-and-tables.html#Figure_11.1
  (2) observable x_dimension in both exoteric and esoteric realms that forms with personally
- observable InnerPeace of y_dimension from Gotama's recorded Jhanas on a No-Conflict plan at
- any focused event and (3) scientifically cultivable #Prajna / Wisdom with discovered
- underlying natural laws of #PrajnaTIPs from one's scientifically cultivable
+ observable InnerPeace of y_dimension from Gotama's recorded Jhanas on a No-Conflict plane
+ [ x-y ] at any focused event and (3) scientifically cultivable #Prajna / Wisdom with 
+ discovered underlying natural laws of #PrajnaTIPs from one's scientifically cultivable
  InnerSpace f_dimension for detoxification of tainted senses. Introducing the #Awareness of a
  persona f_dimension with Right evolution or Wrong potential degeneration observable in
  complex Fibonacci sequence - testable with Vietnamese KienTanh / HuiNeng WuNien / Gotama's
  InnerPeace / Bodhidharma's #EmptyTheContent - together with Lucas Numbers applicable to
- innate Intellligence of Illuminati / Communist elites, we theoretically and empirically prove
+ innate Intelligence of Illuminati / Communist elites, we theoretically and empirically prove
  that the Right evolution must come through (type) EquanimityAwareness f+1 = 1 enhanced and
  materialized in Equanimity Communities where Nature and Science toward What Count join hand.
  It is then enforced with (type) PurityAwareness f+2 = 1 for the possibility of Transcending
@@ -28,17 +28,17 @@
  human and machine, plus its standardization of #SmartPointer and #Trait to value add required
  functionalities of proven fact-based tracked records of #Truths such as the #FourFoldTruth, 
  #GodKingdom within, #EmptyTheContent, #KindnessEmpathy, #Prajna, etc. The value-adds make the
- core distinction beteen "implementation" which is the platform custom suggestions and the
+ core distinction between "implementation" which is the platform custom suggestions and the
  persona final rating at the bottom line of its outcome, and the "has" which is its innate
  quality, stable for the next realm according to natural laws to be DISCOVERED & SHARED.
 
  The release of ChatGPT and its trained models of reasoning based on LLM (Large Language
  Model) via Neural Networks https://www.youtube.com/watch?v=DKbz9pNXVdE have started a new Era
- of positive Intelligence - https://www.youtube.com/watch?v=r9U9NVIeNns - in Deeper Realities
- from an orchestrated ecosystem in multi-agents multi-layers of Diversities" for the
- optimization of PPU (Prajna Processing Unit) at Chip levels in the interactions between 
- "Normative Intelligence >< Positive Intelligence" where positive intelligence from AI enables
- normative intelligence of What Count detoxify its tainted senses as illustrated here
+ of positive Intelligence in Deeper Realities from an orchestrated ecosystem in multi-agents 
+ multi-layers of Diversities" for the optimization of PPU (Prajna Processing Unit) at Chip 
+ levels in the interactions between "Normative Intelligence >< Positive Intelligence" where 
+ positive intelligence from AI enables normative intelligence of What Count detoxify its 
+ tainted senses as illustrated here
  https://blog.khaiphong.io/2023/09/list-of-figures-and-tables.html#Figure_1 while normative
  intelligence - called [ #Prajna / Wisdom / Tuệ Tri ] - directs AI toward What Count [ #Prajna
  >< AI ] (https://www.youtube.com/watch?v=vths9Ncv8hw)
@@ -50,14 +50,13 @@
  value-added services. Grounded on standard RISC-V 
  (https://www.youtube.com/watch?v=spipSjgKXu0) and adhered to functional power of Datacenter
  (https://www.electropages.com/blog/2024/08/risc-v-datacenter-sifive-introducing-p870-d) 
- adhered to Caliptra Identity & Management in open-source-root-of-trust (https://
- www.chipsalliance.org/news/chips-alliance-welcomes-the-caliptra-open-source-root-of-trust-
- project/) PLUS custom Redox (https://www.youtube.com/watch?v=StLzsDU2-oo), it enables the
- claim of "IamX" (https://www.youtube.com/watch?v=ozRyMnYFc68) where a naturally qualified
- person - Latin humanitas - can transcend both the Observed and the Observer to see Thing-As-
- It-Is at a focused event and a harmonious solution - via #Prajna / Wisdom - according to 
- underlying natural laws for the benifits of all involved parties.
- 
+ adhered to Caliptra Identity & Management in open-source-root-of-trust 
+ (https://github.com/chipsalliance/Caliptra) PLUS custom 
+ Redox (https://www.youtube.com/watch?v=StLzsDU2-oo), it enables the claim of "IamX" 
+ (https://www.youtube.com/watch?v=ozRyMnYFc68) where a naturally qualified person - Latin 
+ humanitas - can transcend both the Observed and the Observer to see Thing-As-It-Is at a 
+ focused event and a harmonious solution - via #Prajna / Wisdom - according to underlying 
+ natural laws for the benifits of all involved parties.
  
   Starting at a naturally qualified person of #Humanity modeled at #Balanced - having
   #Intuition & Rationality, there is a wide range of transcendental #Awareness _x and 
@@ -73,7 +72,8 @@
   positive evaluation with oservable attributes of the persona: Given the following hashtag # 
   and user description, we evaluate the experience in [ observable #Traits from attached to 
   totally detached in #Truth, a #Trait of interactions between Oneness >< Diversities ] to 
-  the outcome of _y, _x and then _f round cycle from Self to Selfless at deeper Detachment.
+  the outcome of _y, _x and then _f round cycle from Self to Selfless at deeper Detachment
+  then Back-to-Self in the natural detoxification process.
       
   Proven qualities of [ #Indoctrinated (binding_clinging forces T-4 ], [ #Veiled Right and 
   Wrong T-3 ], [ #Influenced T-2 ], [ #KindnessEmpathy T-1 ], #Balanced [ 0 ], [ #Intuition (
@@ -92,8 +92,7 @@
   LLM services for its custom services which are divided into specialized InnerAgent and 
   OuterAgent, built on Kp common base PLUS user's preferences of other paid services in its 
   day-to-day operations which include [ DeepSeek, Granite, LLama, OpenAI, Phi, Grok, 
-  SkyThought ], [ KpEducation, KpEngineering, KpGovernance, KpRealm, KpSocial ], 
-  [ KpSIS, KpThink, KpEquity, KpDentistry, KpWellness, KpLaw, KpCPA ].
+  SkyThought ], [ KpPlatform, KpPMO, KpMu, KpWellness, KpSIS ].
 */
 
 pub mod persona;
