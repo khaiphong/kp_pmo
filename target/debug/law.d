@@ -1,0 +1,1 @@
+/home/batien/Kp/GitSrc/github.com/khaiphong/kp_pmo/target/debug/law: /home/batien/Kp/GitSrc/github.com/khaiphong/kp_pmo/law/src/lib.rs /home/batien/Kp/GitSrc/github.com/khaiphong/kp_pmo/law/src/main.rs

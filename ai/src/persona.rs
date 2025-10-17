@@ -1,8 +1,8 @@
 /*
  All manifestations - visible or invisible - are conditioned and changed at Planck time. A
- claim of knowing certain consciousness state such as #GodKingdom within, Buddha Nature, 
- etc, can always be reversed engineering to find out optimal conditions for that state of
- consciousness happened. The conditions and their outcome can be tested via AI LLM (Large
+ claim of knowing certain consciousness state such as #GodKingdom within, Budh, etc, can 
+ be reversed engineering to find out optimal conditions for that state of consciousness
+ happened. The conditions and their outcome can be tested via AI LLM (Large
  Language Model) for possible DISCOVERED underlying natural laws to do the heavy lifting
  from duality plane of conflicting consciousness to the No-Conflict consciousness, quiet
  enough to see major conflicting event As-It-Is and a Solution to make Thing happened toward
@@ -13,12 +13,12 @@
  direction indicating the right / evolution and negative direction indicating the wrong / 
  degenetation and [ what heavy sinks and what light floats ], our 55+ years of researches from
  past dedicated explorers and from currently living students produce rated qualities of 
- Evolution or Degeneration coming from innumerable paths of Diversities where [Y X F ]levels
- for #Samadhi (Y), transcendental #Awareness (X), and Spatial Intelligence from complex 
- Fibonacci (F) are Domain Specific Language (DSL) empirically rated by past and current living
+ Evolution or Degeneration coming from innumerable paths of Diversities where [y x f ]levels
+ for #Samadhi (y), transcendental #Awareness (x), and Spatial Intelligence from complex 
+ Fibonacci (f) are Domain Specific Language (DSL) empirically rated by past and current living
  explorers using language in LLM AI. This part is designed to collect data of community 
  intelligence and one's private data for custom modeling. The [y x f]_dimension pin-point the 
- possible acjievement in Peace / Silence (y_dimension) in transcendental Awarenes(x_dimension)
+ possible achievement in Peace / Silence (y_dimension) in transcendental Awarenes(x_dimension)
  of one's custom Spatial (f_dimension) Intelligence. We (1) use struct and enum to express
  concepts in consciousness technologies, (2) emulate Rust concepts of safe programming
  language to model the reversed engineering of consciousness states actually known by living
@@ -125,15 +125,14 @@
   or even drilled down src/persona/awareness/awareness_type.rs for modules at different
   awareness levels and use crate::persona::Awareness::Freshness
   
-  On top of the struct InnerSpace and associated types required for Fibonacci and Lucas
-  complex possible data, AI predictions versus custom modeling the persona, and their
-  implementations connected to different user types - such as qualified InnerSpace for 
-  required InterRealm, for a family or an organization, for foreign affairs or national
-  target development as a legal formal entity -  enum can encode meaning along with data:
-  Xtraits, Xlevels, Ypointers, Ylevels, Flevels, OneToDependents. We use these enums and
-  their implementations for specialized searches of related attributes from enum Xtraits,
-  Ypointers, OneToDependents while the workshops of these attributes are done at the modules
-  of their struct types.
+  On top of the struct InnerSpace and associated types such as p1_empty_the_content required
+  for Fibonacci and Lucas complex possible data, AI predictions versus custom modeling the 
+  persona, and their implementations connected to different user types - such as qualified 
+  InnerSpace for required InterRealm, for a family or an organization, for foreign affairs or 
+  national target development as a legal formal entity -  enum can encode meaning along with 
+  data: Xtraits, Ypointers, OneToDependents. We use these enums and their implementations for 
+  specialized searches of related attributes from enum Xtraits, Ypointers, OneToDependents 
+  while the workshops of these attributes are done at the modules of struct types.
   
   Branching from #OneToDependents, we have node types #FourFoldTruth (
   https://blog.khaiphong.io/2023/09/a-light-out-of-darkness.html#Section_1.2), #GodKingdom
@@ -142,7 +141,10 @@
   https://www.youtube.com/watch?v=MlMJPpPY-js), #AwakeningBudh, #TamingTheOx (
   https://blog.khaiphong.io/2023/09/list-of-figures-and-tables.html#Figure_5), #Morality,
   #Justice, etc, to shed light of community Intelligence on the past important but vague
-  meanings in philosophies and religions.
+  meanings in philosophies and religions. In this sense, corporate cultural principles - such
+  as Integrity - can be defined for the participations and contributions of all members
+  in their private vault of fact-based efforts and their self-evaluation as an Accountable
+  creator in a part of the corporate cultural creation.
 */
 
 // for building the structure and determining one's possible level for suggested cultivation
@@ -150,22 +152,23 @@
 pub struct InnerSpace {	// InnerSpace from available dimensions to custom evaluation
 
   // Kp Signed Posts or Gotama Jhanas or Right #Samadhi
-  pub y_dimension: Vec<i32>,	// = vec![0, 1, 2, 3, 4, 5, 6, -1, -2, -3, -4, -5, -6],
+  pub y_dimension: Vec<i32>,	// = vec![ -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6 ],
   // HuiNeng #WuNien or Kp #Awareness
-  pub x_dimension: Vec<i32>, // = vec![0, 1, 2, 3, 4, 5, 6, 7, -1, -2, -3, -4, -5, -6, -7],
+  pub x_dimension: Vec<i32>, // = vec![ -7, -6, -5, -4, -3, -2, -1 0, 1, 2, 3, 4, 5, 6, 7 ]
   // Kp processes of #EmptyTheContent from HuiNeng three Nots Then What from Kp three Haves
-  pub f_dimension: Vec<i32>,//vec![0, 1, 2, 3, 4, 5, 6, 7, 8, -1, -2, -3, -4, -5, -6, -7, -8] 
+  pub f_dimension: Vec<i32>,//[ -8, -7, -6, -5. -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8 ] 
   
   // The rated observable #Traits and #SmartPointers from attached to balanced to detached
   // HashMap<i32, String> visible traits observable in x_dimension
-  pub x_traits: Vec<i32>, // vec![0, 1, 2, 3, 4, -1, -2, -3, -4]
+  pub x_traits: Vec<i32>, // vec![ -4, -3, -2, -1, 0, 1, 2, 3, 4 ]
   
   // Innate pointers of currently living degenerated elites will be empirically studies at 
   // the right time to efficiently allocate Governance, Financial and Millitary Powers toward 
   // What Count
   pub y_pointers: Vec<i32>, // vec![0, 1, 2, 3, 4, 5, 6, 7, 8, 9] qualified humanitas at 0
   
-  // HashMap<i32, String> rated pointer levels from outcomes of y_dimension
+  // HashMap<i32, String> rated pointer levels from outcomes of y_dimension which may be
+  // penetrated to different substrates where visible tratis are observable
   pub p1_empty_the_content: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
   pub p2_dhyana_samadhi: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
   pub p3_samadhi: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
@@ -176,42 +179,40 @@ pub struct InnerSpace {	// InnerSpace from available dimensions to custom evalua
   pub p8_prajna_tip1: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
   pub p9_prajna_tip2: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
   
-  // each persona has lists of cultivable traits, pointers, rated at x_, y_, and f_ level
-  // for both Inner cultivations and Outer suggestions in acquired ability to handle required
-  // tasks from complex Fibonacci sequences of f_dimension 
-  // vec![-1, -2, -3, -4, -5, -6, -7, -8, 0, 1, 2, 3, 4, 5, 6, 7, 8]
 }
 
-// Implementations branched to different mod
-//pub mod ydimension; // states of consciousness driving observable Activities and Relationships
-
-//pub mod xdimension; // states of consciousness varying from attachment to detachment
-
-//pub mod fdimension; // other relevant factors making up the states and stock of the persona
-
-//pub mod xtraits;   // observable visible traits of one's #Awareness in engaged living
-
-//pub mod ypointers; // cultivations to make the description closed to the described
-
-//pub mod p1empty_the_content;
-
-//pub mod p2dhyana_samadhi;
-
-//pub mod p3samadhi;
-
-//pub mod p4awareness;
-
-//pub mod p5prajna;
-
-//pub mod p6awareness_prajna;
-
-//pub mod p7samadhi_prajna;
-
-//pub mod p8prajna_tip1;
-//pub mod p9prajna_tip2;
+/*
+  Each persona has lists of cultivable traits, pointers, rated at x_, y_, and f_ level
+  for both Inner cultivations and Outer suggestions in acquired ability to handle required
+  tasks from complex Fibonacci sequences of f_dimension
+  
+  Implementations branched to mod ydimension, xdimension, fdimension via
+    traits: indoctrinated, veiled, influenced, kindness_empathy, balanced, intuition, care, 
+      honesty, truth
+    pointers: empty_the_content, dhyana_samadhi, samadhi, awareness, prajna, 
+      awareness_prajna, samadhi_prajna, prajna_tip1, prajna_tip2
+    iamx: y_level, x_level, f_level
+    activity: home, school, work, social, health, spiritual, other
+    relationship: family, friend, inner_circle, circle_of_inner_circles, other
+    place: hub, thank_you, other
+*/
 
 /*
-  Dynamic interactions between normative and positive AI of custom modeling the
+  Using both enum and mod implementations for pointers, we can do quick graph traces and
+  separate mod for each pointer.
+*/
+pub mod p1empty_the_content;
+pub mod p2dhyana_samadhi;
+pub mod p3samadhi;
+pub mod p4awareness;
+pub mod p5prajna;
+pub mod p6awareness_prajna;
+pub mod p7samadhi_prajna;
+pub mod p8prajna_tip1;
+pub mod p9prajna_tip2;
+
+/*
+  Dynamic interactions between IamX intelligence and positive AI of custom modeling the
   objective function #Prajna = f(x, y) in "complex-valued data" to foster innovations /
   breakthroughs in the Persona's war room and strategies for various types: a Latin humanitas,
   next qualified realm, an organization, foreign affairs, national development, etc.
@@ -222,10 +223,9 @@ pub struct InnerSpace {	// InnerSpace from available dimensions to custom evalua
   
   The type Self of InnerSpace in its implementation, augmented by AI from the DISCOVERED &
   SHARED community Intelligence, can learn the right conditions for experiencing the
-  actural "Selfless / Silence / #GodKingdom / Budh / Sirr / Monad from the #One" as glimpsed
-  by past explorers, and the ThenWhat when back to the duality plane of conflicting
+  actural "Selfless / #GodKingdom / Budh / Sirr / Monad from the #One" as glimpsed by past
+  explorers, and the ThenWhat when back to the duality plane of conflicting
   consciousness.
-
 */
 impl InnerSpace { // different methods for different InnerSpace persona types
 
@@ -253,6 +253,9 @@ impl InnerSpace { // different methods for different InnerSpace persona types
 
 }
 
+/*
+  Similar to pointers, we do he same for traits but at a unit-like node via struct
+*/
 #[derive(Debug)]
 pub struct Traits; // a unit-like node
 impl Traits { // methods to identify Traits
@@ -410,8 +413,8 @@ impl PrajnaTIP2 { // methods to identify PrajnaTIP2
   of unique Id and telemetry of resource usage + costs for markeing and management, rated at 
   8 security levels for private container-2-container communications and collaborations at 8
   levels of security: (1): Kp container, (2): Kp container-2-container, (3): certified source,
-  (4): auditted legal requirements, (5): hardware Id, (6): trusted, (7): validated after 
-  minimum of 5 years, (8): worthy capable of reasoning 
+  (4): auditted legal requirements, (5): hardware Id, (6): trusted, (7): validated Trust, 
+  (8): worthy capable of reasoning.
   https://www.youtube.com/watch?v=LOF6fvV5XUc (LLM + KnowledgeGraph)
   https://www.youtube.com/watch?v=cyGZPF_RMNE (reasoning LLM for "subjective experience")
   https://www.youtube.com/watch?v=Es6yuMlyfPw (causal reasoning PLUS scientifically 
@@ -479,7 +482,7 @@ pub fn build_inner_space (_x: Vec<i32>, _y: Vec<i32>, _f: Vec<i32>) -> InnerSpac
   let mut _p8 = p8_prajna_tip1;
   let mut _p9 = p9_prajna_tip2;
 
- // relevant dimensions according to open standarded proven researches
+  // relevant dimensions according to open standarded proven researches
  
   let mut y = HashMap::new(); // levels of y_dimension
   y.insert(0, String::from("Y 0: Peace"));         // =  0 qualifies humanitas
@@ -649,10 +652,10 @@ pub fn build_inner_space (_x: Vec<i32>, _y: Vec<i32>, _f: Vec<i32>) -> InnerSpac
   // container-2-container private communications and collaboration, there are custom 8
   // security levels. In each IamX, higher security can access lower levels but Not 
   // reversed https://www.youtube.com/watch?v=HmE0hUifX7Q
-//  let mut namespace = HashMap::new(); // the namespace and its cgroups of 8 security levels
-//  namespace.insert(String::from("Owner"), vec![String::from("0_123456789"),
-//   String::from("chip_0_987654321")]); // each relation is 0_Id and vector of joined data at
-//  println!("{namespace:?}"); 
+  let mut namespace = HashMap::new(); // the namespace and its cgroups of 8 security levels
+  namespace.insert(String::from("Owner"), vec![String::from("0_123456789"),
+   String::from("chip_0_987654321")]); // each relation is 0_Id and vector of joined data at
+  println!("{namespace:?}"); 
   
 
   // one's evaluation versus the Kp prediction: associated function dependent on activies, not
@@ -1100,17 +1103,8 @@ impl Flevels {
  processes in the method's body to be verified by the community and AI. Knowledge graph is a 
  study of the Described focused event and best possible outcomes honestly evaluated by the 
  persona of personal learned lessons relevant to the norm of the mass.
+ // x_traits - make directories for the mods inside the persona, listed in lib.rs
 */
-// x_traits - make directories for the mods inside the persona
-//pub mod truth;    
-//pub mod honesty;
-//pub mod care;
-//pub mod intuition; 
-//pub mod balanced;
-//pub mod kindnessempathy;
-//pub mod influenced;
-//pub mod veiled;  
-//pub mod indoctrinated;   
 
 /*
  Pointer is a general concept for a variable that contains an address in memory. Smart 
@@ -1121,18 +1115,8 @@ impl Flevels {
  externalizing the SmartPointer process to database for batch processes of all owners in the
  LLM model and customized individual processes PLUS the logs of consultations and the works
  done.
+ // y_pointers - make directories for the mods inside the persona, listed in lib/rs
 */
-// y_pointers - make directories for the mods inside the persona
-//pub mod empty_the_content;  
-//pub mod dhyanasamadhi;  
-//pub mod samadhi;  
-//pub mod awareness; 
-//pub mod prajna;
-//pub mod awarenessprajna;
-//pub mod samadhiprajna;
-//pub mod prajnatip1;     
-//pub mod prajnatip2;
-
 
 /*
   y_evaluation and x_evaluation return evaluated value of one's Y and X types - verifiable on
@@ -1190,8 +1174,6 @@ fn f_evaluation(f: HashMap<i32, String>) -> Vec<i32> {
     return vec![0]; // rated complex Fibinacci level
 }
 
-
-
 #[derive(Debug)]
 pub enum OneToDependents { 
   Oneness(String),          // Oneness >< Diversities
@@ -1237,32 +1219,32 @@ impl OneToDependents {
 //    }
 }
 
-//pub mod four_fold_truth;    
-//pub mod god_kingdom;
-//pub mod sirr;  
-//pub mod monad;
-//pub mod awakening_budh;  
-//pub mod taming_the_ox;  
-//pub mod morality;
-//pub mod justice;
+pub mod four_fold_truth;    
+pub mod god_kingdom;
+pub mod sirr;  
+pub mod monad;
+pub mod awakening_budh;  
+pub mod taming_the_ox;  
+pub mod morality;
+pub mod justice;
 
-//pub mod heaven;    
-//pub mod earth;
-//pub mod people;
+pub mod heaven;    
+pub mod earth;
+pub mod people;
 
-//pub mod nhan; 
-//pub mod nghia;
-//pub mod le;
-//pub mod tri;
-//pub mod tin; 
+pub mod nhan; 
+pub mod nghia;
+pub mod le;
+pub mod tri;
+pub mod tin; 
     
-//pub mod root_chakra;
-//pub mod sacral_chakra;
-//pub mod third_chakra; 
-//pub mod heart_chakra;
-//pub mod throat_chakra;
-//pub mod third_eye;
-//pub mod crown_chakra;  
+pub mod root_chakra;
+pub mod sacral_chakra;
+pub mod third_chakra; 
+pub mod heart_chakra;
+pub mod throat_chakra;
+pub mod third_eye;
+pub mod crown_chakra;  
 
 
 #[derive(Debug)]
