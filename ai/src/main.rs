@@ -229,7 +229,7 @@ use ai::persona::CrownChakra;
  
 fn main() {
 
-  println!("We layout possible ranges of #Prajna cultivation based on [y,x,f]_dimensions plus #SmartPointers and #Traits dimensions, together with the persona's self evaluations based on its custom training and dedicated resources for What Count to gradually approaching fact-based 'IamX' for normative and positive interactions via InnerAgent and OuterAgent assistances");
+  println!("We layout possible ranges of #Prajna cultivation based on [y,x,f]_dimensions as [ _y, _x, _f ] plus #SmartPointers and #Traits dimensions, together with the persona's self evaluations based on its custom training and dedicated resources for What Count to gradually approaching fact-based 'IamX' for normative and positive interactions via InnerAgent and OuterAgent assistances");
 /*
   // 9 smart pointer # to be connected in learning and sharing
 //  let _qualified_humanitas = 

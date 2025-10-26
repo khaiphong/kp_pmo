@@ -147,39 +147,6 @@
   creator in a part of the corporate cultural creation.
 */
 
-// for building the structure and determining one's possible level for suggested cultivation
-#[derive(Debug)]
-pub struct InnerSpace {	// InnerSpace from available dimensions to custom evaluation
-
-  // Kp Signed Posts or Gotama Jhanas or Right #Samadhi
-  pub y_dimension: Vec<i32>,	// = vec![ -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6 ],
-  // HuiNeng #WuNien or Kp #Awareness
-  pub x_dimension: Vec<i32>, // = vec![ -7, -6, -5, -4, -3, -2, -1 0, 1, 2, 3, 4, 5, 6, 7 ]
-  // Kp processes of #EmptyTheContent from HuiNeng three Nots Then What from Kp three Haves
-  pub f_dimension: Vec<i32>,//[ -8, -7, -6, -5. -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8 ] 
-  
-  // The rated observable #Traits and #SmartPointers from attached to balanced to detached
-  // HashMap<i32, String> visible traits observable in x_dimension
-  pub x_traits: Vec<i32>, // vec![ -4, -3, -2, -1, 0, 1, 2, 3, 4 ]
-  
-  // Innate pointers of currently living degenerated elites will be empirically studies at 
-  // the right time to efficiently allocate Governance, Financial and Millitary Powers toward 
-  // What Count
-  pub y_pointers: Vec<i32>, // vec![0, 1, 2, 3, 4, 5, 6, 7, 8, 9] qualified humanitas at 0
-  
-  // HashMap<i32, String> rated pointer levels from outcomes of y_dimension which may be
-  // penetrated to different substrates where visible tratis are observable
-  pub p1_empty_the_content: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p2_dhyana_samadhi: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p3_samadhi: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p4_awareness: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p5_prajna: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p6_awareness_prajna: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p7_samadhi_prajna: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p8_prajna_tip1: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p9_prajna_tip2: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  
-}
 
 /*
   Each persona has lists of cultivable traits, pointers, rated at x_, y_, and f_ level
@@ -698,7 +665,7 @@ pub fn build_inner_space (_x: Vec<i32>, _y: Vec<i32>, _f: Vec<i32>) -> InnerSpac
 
   return me;
 
-} // end of build_InnerSpace from Traits t, SignedPosts y, Awareness x, InnerSpace f
+} // end of build_InnerSpace from _t, _p, _y, _x, _f, _p1 .. _p9
 
 /*
   p_evaluation return evaluated value of y_pointer #EmptyTheContent toward #SanadhiPrajna
@@ -907,7 +874,7 @@ pub enum Xtraits {
 */
 
 /*
-  The following enums [ Xtraits, Xlevels, Ypointers, Ylevels, Flevels, and OneToDependent ] 
+  The following enums [ Xtraits, Xlevels, Ypointers, Ylevels, Flevels, OneToDependent ] 
   and their implementations are used for specialized searches.
 */
 
@@ -1115,13 +1082,13 @@ impl Flevels {
  externalizing the SmartPointer process to database for batch processes of all owners in the
  LLM model and customized individual processes PLUS the logs of consultations and the works
  done.
- // y_pointers - make directories for the mods inside the persona, listed in lib/rs
+ // y_pointers - make directories for the mods inside the persona, listed in lib.rs
 */
 
 /*
   y_evaluation and x_evaluation return evaluated value of one's Y and X types - verifiable on
   the hard facts at the bottom line of Right Efforts - to be further explored in these two 
-  dimensions that are inputs into the f_evaluation which is subjective based one's sensing on
+  dimensions that are inputs into the f_evaluation which is subjective from one's sensing on
   WhatCount + personal DISCOVERED #Truth impact on one's quality of the consciousness. We can
   make the function fn evaluation<T>(HashMap<i32, String>) -> &[T] {} over type T. The 
   evaluation will return a reference to a value of the same type T which is the rated 
