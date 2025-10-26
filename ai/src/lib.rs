@@ -260,6 +260,62 @@ pub struct InnerSpace {	// InnerSpace from available dimensions to custom evalua
 }
 
 
+
+
+
+
+
+
+
+/*
+  Dynamic interactions between IamX intelligence and positive AI of custom modeling the
+  objective function #Prajna = f(x, y) in "complex-valued data" to foster innovations /
+  breakthroughs in the Persona's war room and strategies for various types: a Latin humanitas,
+  next qualified realm, an organization, foreign affairs, national development, etc.
+  
+  Modeling the InnerSpace is the systematic building internal power for different stages of
+  the persona developments. Academia research + LLM statistical significance. These methods
+  will be used as a part of f_evaluation depending on the type of persona and custom services
+  
+  The type Self of InnerSpace in its implementation, augmented by AI from the DISCOVERED &
+  SHARED community Intelligence, can learn the right conditions for experiencing the
+  actural "Selfless / #GodKingdom / Budh / Sirr / Monad from the #One" as glimpsed by past
+  explorers, and the ThenWhat when back to the duality plane of conflicting
+  consciousness.
+*/
+impl InnerSpace { // different methods for different InnerSpace persona types
+
+//  fn f_evaluation<'a>(_x: &'a x_dimension, _y: &'a y_dimension) -> &'a str { // f(_x,_y)
+//    return "EquanimityAwareness".to_string()
+//  } // applicable to persona at individial level to be detailed below
+
+// similarly, evaluation to the persona qualified in different realm or application aggregate
+
+  pub fn qualified_realm(&self) -> String { // f(_x,_y) for Inter-Realm
+    return "human".to_string()
+  }
+  
+  pub fn maturity_level(&self) -> String { // f(_x,_y) for organization
+    return "self sustainable".to_string()
+  }
+  
+  pub fn change_management(&self) -> String { // f(_x,_y) for foreign affairs
+    return "decisive_battle".to_string()
+  }
+  
+  pub fn nation_happiness(&self) -> String { // f(_x,_y) for a national development
+    return "in_operation".to_string()
+  }
+
+}
+
+
+
+
+
+
+
+
 pub mod place {
     pub mod hub {
 		pub fn inner_agent() {}
