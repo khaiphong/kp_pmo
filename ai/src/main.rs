@@ -96,7 +96,7 @@
 */
 
 /*
-//use ai::persona; //use ai::front::chat::prompt; //use ai::front::chat::response;
+ //use ai::front::chat::prompt; //use ai::front::chat::response;
 //use ai::front::vdeo::in_stream; //use ai::front::vdeo::out_stream;
 
 ::{ OneToDependent, Xlevels, Ylevels, Flevels, Xtraits, Ypointers, 
@@ -227,58 +227,63 @@ use ai::persona::ThirdEye;
 use ai::persona::CrownChakra;
 */
  
+use ai::Ypointers;
+use ai::Xtraits;
+ 
 fn main() {
 
   println!("We layout possible ranges of #Prajna cultivation based on [y,x,f]_dimensions as [ _y, _x, _f ] plus #SmartPointers and #Traits dimensions, together with the persona's self evaluations based on its custom training and dedicated resources for What Count to gradually approaching fact-based 'IamX' for normative and positive interactions via InnerAgent and OuterAgent assistances");
-/*
+
+  println!("--------");
+  
   // 9 smart pointer # to be connected in learning and sharing
-//  let _qualified_humanitas = 
-//   Ypointers::QualifiedHumanitas(String::from("#QualifiedHumanitas"));
-//  let _empty_the_content =  Ypointers::EmptyTheContent(String::from("#EmptyTheContent"));
-//  let _meditation = Ypointers::DhyanaSamadhi(String::from("#DhyanaSamadhi")); 
-//  let _transcendental_inner_peace = Ypointers::Samadhi(String::from("#Samadhi"));
-//  let _transcendental_awareness = Ypointers::Awareness(String::from("#Awareness"));
-//  let _prajna = Ypointers::Prajna(String::from("#Prajna")); 
-//  let _awareness_prajna = Ypointers::AwarenessPrajna(String::from("#AwarenessPrajna")); 
-//  let _samadhi_prajna = Ypointers::SamadhiPrajna(String::from("#SamadhiPrajna"));
-//  let _prajna_tip1 = Ypointers::PrajnaTIP1(String::from("#PrajnaTIP1"));
-//  let _prajna_tip2 = Ypointers::PrajnaTIP2(String::from("#PrajnaTIP2"));
+  let _qualified_humanitas = 
+    Ypointers::QualifiedHumanitas(String::from("#QualifiedHumanitas"));
+  let _empty_the_content =  Ypointers::EmptyTheContent(String::from("#EmptyTheContent"));
+  let _meditation = Ypointers::DhyanaSamadhi(String::from("#DhyanaSamadhi")); 
+  let _transcendental_inner_peace = Ypointers::Samadhi(String::from("#Samadhi"));
+  let _transcendental_awareness = Ypointers::Awareness(String::from("#Awareness"));
+  let _prajna = Ypointers::Prajna(String::from("#Prajna")); 
+  let _awareness_prajna = Ypointers::AwarenessPrajna(String::from("#AwarenessPrajna")); 
+  let _samadhi_prajna = Ypointers::SamadhiPrajna(String::from("#SamadhiPrajna"));
+  let _prajna_tip1 = Ypointers::PrajnaTIP1(String::from("#PrajnaTIP1"));
+  let _prajna_tip2 = Ypointers::PrajnaTIP2(String::from("#PrajnaTIP2"));
   
-//  println!("I'm connecting to node {:?}!", _qualified_humanitas);
-//  println!("I'm connecting to node {:?}!", _empty_the_content);
-//  println!("I'm connecting to node {:?}!", _meditation);
-//  println!("I'm connecting to node {:?}!", _transcendental_inner_peace);
-//  println!("I'm connecting to node {:?}!", _transcendental_awareness);
-//  println!("I'm connecting to node {:?}!", _prajna);
-//  println!("I'm connecting to node {:?}!", _awareness_prajna);
-//  println!("I'm connecting to node {:?}!", _samadhi_prajna);
-//  println!("I'm connecting to node {:?}!", _prajna_tip1);
-//  println!("I'm connecting to node {:?}!", _prajna_tip2);
+  println!("I'm connecting to node {:?}!", _qualified_humanitas);
+  println!("I'm connecting to node {:?}!", _empty_the_content);
+  println!("I'm connecting to node {:?}!", _meditation);
+  println!("I'm connecting to node {:?}!", _transcendental_inner_peace);
+  println!("I'm connecting to node {:?}!", _transcendental_awareness);
+  println!("I'm connecting to node {:?}!", _prajna);
+  println!("I'm connecting to node {:?}!", _awareness_prajna);
+  println!("I'm connecting to node {:?}!", _samadhi_prajna);
+  println!("I'm connecting to node {:?}!", _prajna_tip1);
+  println!("I'm connecting to node {:?}!", _prajna_tip2);
   
+  println!("--------");   
   // 9 # (traits) to be connected in learning and sharing
-//  let _truth = Xtraits::Truth(String::from("#Truth"));
-//  let _honesty = Xtraits::Honesty(String::from("#Honesty"));  
-//  let _care = Xtraits::Care(String::from("#Care"));
-//  let _intuition = Xtraits::Intuition(String::from("#Intuition"));
-//  let _balanced = Xtraits::Balanced(String::from("#Balanced"));
-//  let _kindnessempathy = Xtraits::KindnessEmpathy(String::from("#KindnessEmpathy"));  
-//  let _influenced = Xtraits::Influenced(String::from("#Influenced"));
-//  let _veiled = Xtraits::Veiled(String::from("#Veiled"));
-//  let _indoctrinated = Xtraits::Indoctrinated(String::from("#Indoctrinated"));
+  let _truth = Xtraits::Truth(String::from("#Truth"));
+  let _honesty = Xtraits::Honesty(String::from("#Honesty"));  
+  let _care = Xtraits::Care(String::from("#Care"));
+  let _intuition = Xtraits::Intuition(String::from("#Intuition"));
+  let _balanced = Xtraits::Balanced(String::from("#Balanced"));
+  let _kindnessempathy = Xtraits::KindnessEmpathy(String::from("#KindnessEmpathy"));  
+  let _influenced = Xtraits::Influenced(String::from("#Influenced"));
+  let _veiled = Xtraits::Veiled(String::from("#Veiled"));
+  let _indoctrinated = Xtraits::Indoctrinated(String::from("#Indoctrinated"));
   
-  println!("--------"); 
 //  println!("Trillion-dollar exploration of past civilizations");
 //  println!("and their epistemic objectives toward #Truth to be DISCOVERED & SHARED");
 
-//  println!("I'm connecting to node {:?}!", _truth);
-//  println!("I'm connecting to node {:?}!", _honesty);
-//  println!("I'm connecting to node {:?}!", _care);
-//  println!("I'm connecting to node {:?}!", _intuition);
-//  println!("I'm connecting to node {:?}!", _balanced);
-//  println!("I'm connecting to node {:?}!", _kindnessempathy);
-//  println!("I'm connecting to node {:?}!", _influenced);
-//  println!("I'm connecting to node {:?}!", _veiled);
-//  println!("I'm connecting to node {:?}!", _indoctrinated);
+  println!("I'm connecting to node {:?}!", _truth);
+  println!("I'm connecting to node {:?}!", _honesty);
+  println!("I'm connecting to node {:?}!", _care);
+  println!("I'm connecting to node {:?}!", _intuition);
+  println!("I'm connecting to node {:?}!", _balanced);
+  println!("I'm connecting to node {:?}!", _kindnessempathy);
+  println!("I'm connecting to node {:?}!", _influenced);
+  println!("I'm connecting to node {:?}!", _veiled);
+  println!("I'm connecting to node {:?}!", _indoctrinated);
   
   println!("--------"); 
 //  println!("Solutions must prove the knowhow from [ Oneness >< Diversities ] & Then What?");
@@ -614,6 +619,7 @@ println!("[ Diversities ] via F-dimension cultivable from HuiNeng Three-Nots to 
 //  let _indoctrinated_inner_agent = indoctrinated_inner_agent();
 //  println!("I'm augmenting {:?}!", _indoctrinated_inner_agent); 
 
+/*
   println!("--------");
   println!("I am buiding the persona InnerSpace of IamX");
   // evaluation of InnerSpace

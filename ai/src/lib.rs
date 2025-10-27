@@ -535,9 +535,6 @@ impl Xlevels {
 //    }
 }
 
-
-
-
 /*
  Based on empirical observation of a naturally qualified person, one has innate ability to be
  outside-the-box due to sufficient compassion and #Prajna in visible trait #Balanced above
@@ -926,10 +923,6 @@ impl InnerSpace { // different methods for different InnerSpace persona types
   }
 
 }
-
-
-
-
 
 
 
