@@ -675,18 +675,21 @@ impl Flevels {
 pub enum OneToDependents { 
   Oneness(String),          // Oneness >< Diversities
   
-  // Diversities(String),
-  
+  Diversities(String),
+      
   FourFoldTruth(String),	// of Dukkha - to be proven as Epistemic Objective
   GodKingdom(String),		// within - to be proven as Epistemic Objective 
   Sirr(String),				// of sufi to be proven as Epistemic Objective
   Monad(String),			// of Jew to be proven as Epistemic Objective
   
-  AwakeningBudh(String),	// based of measurable Meritocracy
-  TamingTheOx(String),		// TamingTheOx - to be proven as Epistemic Objective
   Morality(String),
+  Patience(String),
   Justice(String),
     
+  AwakeningBudh(String),	// based of measurable Meritocracy
+  AtHome(String),
+  TamingTheOx(String),		// TamingTheOx - to be proven as Epistemic Objective
+
   Heaven(String),           // I-Ching, LaoTzu to be proven as Epistemic Objective
   Earth(String),  
   People(String), 

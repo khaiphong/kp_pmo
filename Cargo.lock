@@ -40,6 +40,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "hr"
+version = "0.1.0"
+
+[[package]]
 name = "law"
 version = "0.1.0"
 
