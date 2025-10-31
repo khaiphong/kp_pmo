@@ -695,6 +695,7 @@ pub mod awakening_budh;
 pub mod taming_the_ox;  
 pub mod morality;
 pub mod justice;
+pub mod integrity;
 
 pub mod heaven;    
 pub mod earth;

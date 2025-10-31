@@ -158,6 +158,7 @@ use ai::persona::Tin;
 
 use ai::persona::Morality;
 use ai::persona::Patience;
+use ai::persona::Integrity;
 
 use ai::persona::RootChakra;
 use ai::persona::SacralChakra;
@@ -270,6 +271,11 @@ fn main() {
   println!("Exploring community intelligence of Justice");
   let _justice = OneToDependents::Justice(String::from("Justice"));
   println!("I'm connecting to node {:?}!", _justice);  
+
+  println!("---");   
+  println!("Exploring community intelligence of Integrity");
+  let _integrity = OneToDependents::Integrity(String::from("Integrity"));
+  println!("I'm connecting to node {:?}!", _integrity);  
   
   println!("--------"); 
   println!("Exploring community intelligence");

@@ -685,6 +685,7 @@ pub enum OneToDependents {
   Morality(String),
   Patience(String),
   Justice(String),
+  Integrity(String),
     
   AwakeningBudh(String),	// based of measurable Meritocracy
   AtHome(String),
@@ -773,6 +774,13 @@ pub struct Justice; // a unit-like node
 impl Justice { // methods to identify Justice
   pub fn kp_justice(&self) -> String { // f(_x,_y) for Justice
     return "an accepted formal evaluation of Justice".to_string()
+  }
+}
+#[derive(Debug)]
+pub struct Integrity; // a unit-like node
+impl Integrity { // methods to identify Integrity
+  pub fn kp_integrity(&self) -> String { // f(_x,_y) for Integrity
+    return "an accepted formal evaluation of Integrity".to_string()
   }
 }
 
