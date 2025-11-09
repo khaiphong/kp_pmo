@@ -261,7 +261,17 @@ fn main() {
   println!("Exploring Jewish glimpse of Monad");
   let _monad = OneToDependents::Monad(String::from("Monad"));
   println!("I'm connecting to node {:?}!", _monad);  
-   
+
+  println!("---");   
+  println!("Exploring Hindu glimpse of Vedanta");
+  let _vedanta = OneToDependents::Vedanta(String::from("Vedanta"));
+  println!("I'm connecting to node {:?}!", _vedanta);  
+  
+  println!("---");   
+  println!("Exploring Esoteric ETs glimpse of No-Conflict consciousness");
+  let _esoteric = OneToDependents::Esoteric(String::from("Esoteric"));
+  println!("I'm connecting to node {:?}!", _esoteric);  
+
   println!("---");   
   println!("Exploring community intelligence of Morality");
   let _morality = OneToDependents::Morality(String::from("Morality"));
