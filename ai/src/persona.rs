@@ -693,6 +693,9 @@ pub mod four_fold_truth;
 pub mod god_kingdom;
 pub mod sirr;  
 pub mod monad;
+pub mod vedanta;    
+pub mod esoteric;
+
 pub mod awakening_budh;  
 pub mod taming_the_ox;  
 pub mod morality;
