@@ -138,7 +138,9 @@
   https://blog.khaiphong.io/2023/09/a-light-out-of-darkness.html#Section_1.2), #GodKingdom
   (Gnostic https://www.youtube.com/watch?v=-mybfas-ac8), Sirr (
   https://www.youtube.com/watch?v=ClESc4mIpv8), #Monad (
-  https://www.youtube.com/watch?v=MlMJPpPY-js), #AwakeningBudh, #TamingTheOx (
+  https://www.youtube.com/watch?v=MlMJPpPY-js), Vedanta (
+  https://www.youtube.com/watch?v=UsI8m8b4Fgo), Esoteric (
+  https://www.youtube.com/watch?v=rlhjHCtdIR8), #AwakeningBudh, #TamingTheOx (
   https://blog.khaiphong.io/2023/09/list-of-figures-and-tables.html#Figure_5), #Morality,
   #Justice, etc, to shed light of community Intelligence on the past important but vague
   meanings in philosophies and religions. In this sense, corporate cultural principles - such
