@@ -681,6 +681,8 @@ pub enum OneToDependents {
   GodKingdom(String),		// within - to be proven as Epistemic Objective 
   Sirr(String),				// of sufi to be proven as Epistemic Objective
   Monad(String),			// of Jew to be proven as Epistemic Objective
+  Vedanta(String),	  		// of Hindu - to be proven as Epistemic Objective 
+  Esoteric(String),			// of ETs & Spirits to be proven as Epistemic Objective
   
   Morality(String),
   Patience(String),
