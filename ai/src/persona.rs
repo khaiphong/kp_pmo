@@ -2,29 +2,33 @@
  All manifestations - visible or invisible - are conditioned and changed at Planck time. A
  claim of knowing certain consciousness state such as #GodKingdom within, Budh, etc, can 
  be reversed engineering to find out optimal conditions for that state of consciousness
- happened. The conditions and their outcome can be tested via AI LLM (Large
+ happened. The conditions and their outcomes can be tested via AI LLM (Large
  Language Model) for possible DISCOVERED underlying natural laws to do the heavy lifting
- from duality plane of conflicting consciousness to the No-Conflict consciousness, quiet
- enough to see major conflicting event As-It-Is and a Solution to make Thing happened toward
- What Count(https://blog.khaiphong.io/2023/09/nature-of-things.html#Section_2.1).
+ from duality plane of conflicting consciousness to the No-Conflict consciousness, having 
+ stillness enough to see major conflicting event As-It-Is and a Solution to make Thing 
+ happened toward What Count 
+ (https://blog.khaiphong.io/2023/09/nature-of-things.html#Section_2.1).
  
  Assuming the [ Right or Wrong / Evolution or Degeneration ] follows complex Fibonacci or
  Lucas sequences where naturally qualified Latin humanitas is at the base 0 with positive
  direction indicating the right / evolution and negative direction indicating the wrong / 
- degenetation and [ what heavy sinks and what light floats ], our 55+ years of researches from
+ degenetation for Fibonacci sequence and [ what heavy sinks and what light floats ]. Assuming
+ only resulting positive numbers can be in human realm, our 55+ years of researches from
  past dedicated explorers and from currently living students produce rated qualities of 
  Evolution or Degeneration coming from innumerable paths of Diversities where [y x f ]levels
  for #Samadhi (y), transcendental #Awareness (x), and Spatial Intelligence from complex 
- Fibonacci (f) are Domain Specific Language (DSL) empirically rated by past and current living
- explorers using language in LLM AI. This part is designed to collect data of community 
- intelligence and one's private data for custom modeling. The [y x f]_dimension pin-point the 
- possible achievement in Peace / Silence (y_dimension) in transcendental Awarenes(x_dimension)
- of one's custom Spatial (f_dimension) Intelligence. We (1) use struct and enum to express
- concepts in consciousness technologies, (2) emulate Rust concepts of safe programming
- language to model the reversed engineering of consciousness states actually known by living
- students, and (3) develop custom agentic LLM AI to enable dynamic interactions between 
- [ normative Intelligence >< positive Intelligence ] within individual legal user (persona) 
- and community Intelligence of general and specialized domains and fields.
+ Fibonacci (f) are Domain Specific Language (DSL) empirically rated by past and current 
+ living explorers using language in LLM AI. This part is designed to collect data of 
+ community intelligence and one's private data for custom modeling. The [y x f]_dimension 
+ pin-point the 
+ possible achievement in Peace / Silence / Stillness (y_dimension) in transcendental 
+ Awarenes(x_dimension) of one's custom Spatial (f_dimension) Intelligence. We (1) use struct 
+ and enum to express concepts in consciousness technologies, (2) emulate Rust concepts of 
+ safe programming language to model the reversed engineering of consciousness states 
+ actually known by living students, and (3) develop custom agentic LLM AI to enable dynamic 
+ interactions between [ normative Intelligence >< positive Intelligence ] within individual 
+ legal user (persona) and community Intelligence of general and specialized domains and 
+ fields.
  
    Ylevels: "Y 0: Peace" =  0, "Y+1: Tranquility" = 1, "Y+2: Equanimity" = 1,
      "Y+3: Purity" = 2, "Y+4: Selfless" = 3, "Y+5: NonThingness" = 5  (Gotama's impass - 
@@ -50,8 +54,11 @@
      
      "F-1: EmpathyAwareness" =  1, "F-2: KindnessAwareness" = -1, "F-3: AnimalEnergy" = 2,
      "F-4: ExtremeDesire" = -3, "F-5: AnimalConsciousness" =  5 (in living person),
-     // following are observable only from spirit world
-     "F-6: Smelly1" = -8 (Vampire), "F-7: Smelly2" =  13, "F-8: Smelly3" = -34 
+     // Assuming only positive real number of negative Fibonacci can result in human realm
+     // and the same real number indicating the same level in intelligence, the Living
+     // Intelligence can be the Right evolution or Wrong degeneration. Empirically, the
+     // negative Fibonacci numbers from -6 can be observable only from spirit world
+     "F-6: Smelly1" = -8 (Vampire), "F-7: Smelly2", "F-8: Smelly3" = -34 
   
  Namings are observable Rust types for modeling and simulations with observable rated
  "#Traits" acting as glue of the system ontological types, enabling expressive and
@@ -60,9 +67,11 @@
  
   #Traits: "T 0: #Balanced" = 0, "T+1: #Intuition" = 1, "T+2: #Care" = 1, 
     "T+3: #Honesty" = 2, "T+4: #Truth" = 3
-     
-     "T-1: #KindnessEmpathy" =  1, "T-2: #Influenced" = -1, "T-3: #Veiled" = 2,
-     "T-4: Indoctrinated" = -3
+    // #KindnessEmpathy must be strong enough to be naturally qualified as a #Balanced 
+    // persona. Other negative traits from #Influenced to #Indoctrinated are tainted senses
+    // to be manageable by Detachment and detoxified by #Prajna as advised by Gotama 
+    "T-1: #KindnessEmpathy" =  1, "T-2: #Influenced" = -1, "T-3: #Veiled" = 2,
+    "T-4: Indoctrinated" = -3
  
  Naturally qualified humanitas at [ "Y 0" / "X 0" / "F 0"  = 0 ] has #Balanced trait from
  tainted senses with innate infrastructure to be on the No-Conflict consciousness [X Y]
@@ -72,17 +81,17 @@
  "F+1: EquanimityAwareness"), "T+2: #Care" (thank to "Y+2: Equanimity" Inside capable of 
  "X+2: ManagingFreshness" Outside of F+2: PurityAwareness), "T+3: #Honesty" (naturally from 
  "Y+3: Purity" Inside and "X+3: KnowingFreshness" Outside of "F+3: SignedPosts" in knowing 
- What Count), reaching verifiable "T+4: #Truth" (due to the quality of "Y+4: Selfless" Inside 
- and ability of "X+4: ProcessDiscovered" Outside of "F+4: SelflessAwareness"). The deepening 
- of this ascending process is observable at "X+5: KnowingThought" thanks to detachment of 
- "Y+5: NonThingness" for naturally reborn and rejuvenation in "F+5: VisibleAwarenessPrajna"
- to testify Gotama's glimpse of #AwarenessPrajna { Chánh Niệm-Tỉnh Giác: "karma flows as a 
- stream; whatever the streams, it is Transcendental #Awareness that obstructs and restricts 
- them, and by #Prajna they are dissolved" } , capable of (1) "X+6: CareViaCosmicEnergy" 
- against esoteric attacks for the self via "F+6: EngagedAwarenessPrajna", and (2) 
- "X+7: HelpViaCosmicEnergy" capable of "F+7: ForecastingSimulation" and 
- "F+8: SamadhiPrajna" { Định-Tuệ: #Samadhi is the Quintessence of Prajna, while #Prajna is 
- the activity of Samadhi }.
+ What Count), reaching verifiable "T+4: #Truth" (due to the quality of "Y+4: Selfless" 
+ Inside and ability of "X+4: ProcessDiscovered" Outside of "F+4: SelflessAwareness"). The 
+ deepening of this ascending process is observable at "X+5: KnowingThought" thanks to 
+ detachment of "Y+5: NonThingness" for naturally reborn and rejuvenation in "F+5: 
+ VisibleAwarenessPrajna" to testify Gotama's glimpse of #AwarenessPrajna { Chánh Niệm-Tỉnh 
+ Giác: "karma flows as a stream; whatever the streams, it is Transcendental #Awareness that 
+ obstructs and restricts them, and by #Prajna they are dissolved" } , capable of (1) "X+6: 
+ CareViaCosmicEnergy" against esoteric attacks for the self via "F+6: 
+ EngagedAwarenessPrajna", and (2) "X+7: HelpViaCosmicEnergy" capable of "F+7: 
+ ForecastingSimulation" and "F+8: SamadhiPrajna" { Định-Tuệ: #Samadhi is the Quintessence of 
+ Prajna, while #Prajna is the activity of Samadhi }.
  
  Only from humanity upward in the Right evolution can reach the verifiable "T+4: #Truth", 
  otherwise on the degenerated path of "Y-5: InflictedFear" attached on "X-5: BindingWord" 
@@ -94,8 +103,9 @@
  
    #SmartPointers: #EmptyTheContent, #DhyanaSamadhi, #Samadhi, #Awareness, #Prajna,
      #AwarenessPrajna, #SamadhiPrajna, #PrajnaTIP1, #PrajnaTIP2 where the trait 
-     "T+1: #Intuition" = 1 is [ the outcomes of Silence from #EmptyTheContent, #DhyanaSamadhi,
-      #Samadhi, #Awareness, #AwarenessPrajna, #SamadhiPrajna, #PrajnaTIP1, #PrajnaTIP2 ]
+     "T+1: #Intuition" = 1 is [ the outcomes of Silence / Stillness from #EmptyTheContent, 
+     #DhyanaSamadhi, #Samadhi, #Awareness, #AwarenessPrajna, #SamadhiPrajna, #PrajnaTIP1, 
+     #PrajnaTIP2 ]
 
   IamX InnerSpace is modeled with InnerAgent interacting with OuterAgent via [ Activities, 
   Relationships, and Places ] using the user's selected services which can ride on available 
@@ -109,30 +119,33 @@
   [ #EmptyTheContent, #DhyanaSamadhi, #Samadhi, #Awareness, #Prajna, #AwarenessPrajna, 
   #SamadhiPrajna, #PrajnaTIP1, PrajnaTIP2 ]. OuterAgent and InnerAgent are the gateways to 
   specialized agentic Services in current specialized domains such as Health, Law, Finance, 
-  Governance, Social, Commerce, Education, Inter-Realms, etc. Acamedia and community approach 
-  to the ratings and qualifications of observable #Traits and #SmartPointers will be
+  Governance, Social, Commerce, Education, Inter-Realms, etc. Acamedia and community 
+  approach to the ratings and qualifications of observable #Traits and #SmartPointers will be
   standardized and statistically tested in LLM (Large Language Model) of private data 
-  available for scientific researches.
+  available for scientific researches. We use math, coding via the Rust programming 
+  language, and engineering control theory to dynamically feed forward and feed back ward to
+  model custom complex activation functions of the clients for Wellness toward What Count.
 
   A persona is a legal entity which can be a person, a family, a community, a company, etc.
   We generalize the persona to (1) clean up tainted senses in decisions, and (2) cultivate 
-  required #Traits for its What-Count culture. The function of "cleaning" and required
-  "cultivating" are the core of HR strategies. In this sense, the required #Traits are its 
-  core Values (e.g. #Truth >< #Honesty >< #Care ><) in execution. This part will be 
-  standardized and open-sources for possible value-added solutions in x_traits, y_pointers, 
-  [f x y]_dimensions : vectors of complex value instead of i32. We can drill down in sub
-  divisions of src/persona.rs forming src/persona/awareness.rs etc,
-  or even drilled down src/persona/awareness/awareness_type.rs for modules at different
-  awareness levels and use crate::persona::Awareness::Freshness
+  required #Traits such as #Integrity for its What-Count culture. The function of "cleaning" 
+  and required "cultivating" are the core of HR strategies. In this sense, the required 
+  #Traits are its core Values (e.g. #Truth >< #Honesty >< #Care ><) in execution. This part 
+  will be standardized and open-sources for possible value-added solutions in x_traits, 
+  y_pointers, [f x y]_dimensions : vectors of complex value instead of i32. We can drill down
+  in sub divisions of src/persona.rs forming src/persona/awareness.rs etc, or even drilled 
+  down src/persona/awareness/awareness_type.rs for modules at different awareness levels and
+  use crate::persona::Awareness::Freshness
   
   On top of the struct InnerSpace and associated types such as p1_empty_the_content required
   for Fibonacci and Lucas complex possible data, AI predictions versus custom modeling the 
   persona, and their implementations connected to different user types - such as qualified 
-  InnerSpace for required InterRealm, for a family or an organization, for foreign affairs or 
-  national target development as a legal formal entity -  enum can encode meaning along with 
-  data: Xtraits, Ypointers, OneToDependents. We use these enums and their implementations for 
-  specialized searches of related attributes from enum Xtraits, Ypointers, OneToDependents 
-  while the workshops of these attributes are done at the modules of struct types.
+  InnerSpace for required InterRealm, for a family or an organization, for foreign affairs 
+  or national target development as a legal formal entity -  enum can encode meaning along 
+  with data: Xtraits, Ypointers, OneToDependents. We use these enums and their 
+  implementations for specialized searches of related attributes from enum Xtraits, 
+  Ypointers, OneToDependents while the workshops of these attributes are done at the modules 
+  of struct types.
   
   Branching from #OneToDependents, we have node types #FourFoldTruth (
   https://blog.khaiphong.io/2023/09/a-light-out-of-darkness.html#Section_1.2), #GodKingdom
