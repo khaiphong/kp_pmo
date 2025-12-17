@@ -218,8 +218,8 @@ fn build_inner_space (_x: Vec<i32>, _y: Vec<i32>, _f: Vec<i32>) -> InnerSpace  {
   
   let mut _p = y_pointers;
 
-  // relevant dimensions according to open standarded proven researches
- 
+  // Relevant dimensions according to open standarded proven researches
+  // DbMapContainer allow new map created from macro inputs similar to vec![1, 2, 3]
   let mut y = HashMap::new(); // levels of y_dimension
   y.insert(0, String::from("Y 0: Peace"));         // =  0 qualifies humanitas
   
