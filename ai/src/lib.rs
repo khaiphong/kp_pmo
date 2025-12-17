@@ -1,8 +1,8 @@
 /*
  modules specific to kp_pmo/ai/src - given observable ranges of 6 Ylevels, 7 Xlevels, and 
- 8 Flevels of [ y x f ]dimension , followings are custom functions to evaluate the user based 
- on one's private collected data, ranging from negative direction of "Cheating, Stealing, 
- Bullying and Cunning Intelligence" to the base, naturally qualified humanitas. 
+ 8 Flevels of [ y x f ]dimension , followings are custom functions to evaluate the user 
+ based on one's private collected data, ranging from negative direction of "Cheating, 
+ Stealing, Bullying and Cunning Intelligence" to the base, naturally qualified humanitas. 
  SpaceIntelligence taking into account dynamic interactions of No-Conflict y samadhi with x 
  awareness and lumped together other factors in one's InnerSpace are much more complicated, 
  waiting for more researches.
@@ -147,7 +147,7 @@ pub mod kp { // user's agents to the platform services
     place: hub, thank_you, other
 */
 
-// the layout of _y, _x, _f, _t, _p, _p1 -- _p9 are parts of the user custom graph.
+// the layout of _y, _x, _f, _t, _p,  are parts of the user custom graph.
 pub mod persona { 
 	// InnerPeace (SignedPosts or Jhanas) driving observable Activities and Relationships
 	pub mod ydimension { //Vec<i32> = vec![ -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6 ] 
@@ -158,86 +158,10 @@ pub mod persona {
 		pub fn x_evaluation() {} // move into kp_pmo/ai/src/persona.rs
 	}
 	// Kp processes of #EmptyTheContent from HuiNeng three Nots to Kp three Haves
-	pub mod fdimension {// vec![ -8, -7, -6, -5. -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8 ]  
+	pub mod fdimension {// vec![-8, -7, -6, -5. -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8]  
 		pub fn f_evaluation() {} // move into kp_pmo/ai/src/persona.rs
 	}
-	
-	//x_traits [ Truth, Honesty, Care, Intuition, Balanced,
-	// KindnessEmpathy, Influenced, Veiled, Indoctrinated ]
-    pub mod indoctrimated { // manage the negative indoctrimated trait
-		pub fn inner_agent() {} // move into kp_pmo/agent/src/lib.rs
-		pub fn outer_agent() {} // move into kp_pmo/agent/src/lib.rs
-    }
-    pub mod veiled { // manage the negative veiled trait
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }
-    pub mod influenced { // manage the negative influenced trait
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }
-    pub mod kindness_empathy { // manage the kindness_empathy trait
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }
-    pub mod balanced { // manage the negative and cultivate the positive balanced trait
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }
-    pub mod intuition { // cultivate the positive intuition trait
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }    
-    pub mod care { // cultivate the positive care trait
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }    
-    pub mod honesty { // cultivate the positive honesty trait
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }
-    pub mod truth { // cultivate the positive truth trait
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }        
-	
-	//y_pointers rating from vec![0, 1, 2, 3, 4]
-    pub mod empty_the_content {
-		pub fn inner_agent() {} // move into kp_pmo/agent/src/lib.rs
-		pub fn outer_agent() {} // move into kp_pmo/agent/src/lib.rs
-    }
-    pub mod dhyana_samadhi {
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }
-    pub mod samadhi {
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }    
-    pub mod awareness {
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }
-    pub mod prajna {
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }
-    pub mod awareness_prajna {
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }
-    pub mod samadhi_prajna {
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }
-    pub mod prajna_tip1 {
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }
-    pub mod prajna_tip2 {
-		pub fn inner_agent() {}
-		pub fn outer_agent() {}
-    }
+
 }
 
 // for building the structure and determining one's possible level for suggested cultivation
@@ -260,173 +184,80 @@ pub struct InnerSpace {	// InnerSpace from available dimensions to custom evalua
   // What Count
   pub y_pointers: Vec<i32>, // vec![0, 1, 2, 3, 4, 5, 6, 7, 8, 9] qualified humanitas at 0
   
-  // HashMap<i32, String> rated pointer levels from outcomes of y_dimension which may be
-  // penetrated to different substrates where visible tratis are observable
-  pub p1_empty_the_content: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p2_dhyana_samadhi: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p3_samadhi: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p4_awareness: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p5_prajna: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p6_awareness_prajna: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p7_samadhi_prajna: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p8_prajna_tip1: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  pub p9_prajna_tip2: Vec<i32>, // vec![0, 1, 2, 3, 4, 5]
-  
-}
-
-/*
-  Similar to pointers, we do he same for traits but at a unit-like node via struct
-*/
-#[derive(Debug)]
-pub struct Traits; // a unit-like node
-impl Traits { // methods to identify Traits
-  pub fn kp_traits(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "a formal professional team to study and model Traits".to_string()
-  }
 }
 
 #[derive(Debug)]
-pub struct Truth; // a unit-like node
-impl Truth { // methods to identify Truth
-  pub fn kp_truth(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of Truth".to_string()
-  }
+pub enum HasPointer {
+	EmptyTheContent(String),		//
+	DhyanaSamadhi(String),			//
+	Samadhi(String),				//
+	Awareness(String),				//  
+	Prajna(String),					//  
+	AwarenessPrajna(String),		//  
+	SamadhiPrajna(String),			//  
+	PrajnaTIP1(String),				//
+	PrajnaTIP1(String),				//
 }
 
-#[derive(Debug)]
-pub struct Honesty; // a unit-like node
-impl Honesty { // methods to identify Honesty
-  pub fn kp_honesty(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of Honesty".to_string()
-  }
+// Verify if the types passed or failed the defined pointer.
+impl HasPointer {
+    fn verified(&self) {
+       // method body would be defined here
+    }
 }
 
+// use generic type of Pointer
 #[derive(Debug)]
-pub struct Care; // a unit-like node
-impl Care { // methods to identify Care
-  pub fn kp_care(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of Care".to_string()
-  }
+struct Pointer<T> {
+    // common structure of hidden substrate of #Pointer
+    e: T,		// EmptyTheContent
+    d: T,		// DhyanaSamadhi
+    s: T,		// Samadhi
+    a: T,		// Awareness
+    p: T,		// Prajna
+    ap: T,		// AwarenessPrajna
+    sp: T,		// SamadhiPrajna
+    t1: T,		// PrajnaTIP1
+    t2: T,		// PrajnaTIP2
 }
 
-#[derive(Debug)]
-pub struct Intuition; // a unit-like node https://www.youtube.com/watch?v=m2pDxNUyqVY
-impl Intuition { // methods to identify Intuition
-  pub fn kp_intuition(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of Intuition".to_string()
-  }
-}
-
-#[derive(Debug)]
-pub struct Balanced; // a unit-like node
-impl Balanced { // methods to identify Balanced
-  pub fn kp_balanced(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of Balanced".to_string()
-  }
-}
-
-#[derive(Debug)]
-pub struct KindnessEmpathy; // a unit-like node
-impl KindnessEmpathy { // methods to identify KindnessEmpathy
-  pub fn kp_kindness_empathy(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of KindnessEmpathy".to_string()
-  }
-}
-
-#[derive(Debug)]
-pub struct Influenced; // a unit-like node
-impl Influenced { // methods to identify Influenced
-  pub fn kp_influenced(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of Influenced".to_string()
-  }
-}
-
-#[derive(Debug)]
-pub struct Veiled; // a unit-like node
-impl Veiled { // methods to identify Veiled
-  pub fn kp_veiled(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of Veiled".to_string()
-  }
-}
-
-#[derive(Debug)]
-pub struct Indoctrinated; // a unit-like node
-impl Indoctrinated { // methods to identify Truth
-  pub fn kp_indoctrinated(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of Indoctrinated".to_string()
-  }
-}
-
-#[derive(Debug)]
-pub struct SmartPointers; // a unit-like node
-impl SmartPointers { // methods to identify SmartPointers
-  pub fn kp_smart_pointers(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "a formal professional team to study and model SmartPointers".to_string()
-  }
-}
-
-#[derive(Debug)]
-pub struct EmptyTheContent; // a unit-like node
-impl EmptyTheContent { // methods to identify EmptyTheContent
-  pub fn kp_empty_the_content(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of EmptyTheContent".to_string()
-  }
-}
-#[derive(Debug)]
-pub struct DhyanaSamadhi; // a unit-like node
-impl DhyanaSamadhi { // methods to identify DhyanaSamadhi
-  pub fn kp_dhyana_samadhi(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of DhyanaSamadhi".to_string()
-  }
-}
-#[derive(Debug)]
-pub struct Samadhi; // a unit-like node
-impl Samadhi { // methods to identify Samadhi
-  pub fn kp_samadhi(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of Samadhi".to_string()
-  }
-}
-#[derive(Debug)]
-pub struct Awareness; // a unit-like node
-impl Awareness { // methods to identify Awareness
-  pub fn kp_awareness(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of Awareness".to_string()
-  }
-}
-#[derive(Debug)]
-pub struct Prajna; // a unit-like node
-impl Prajna { // methods to identify Prajna
-  pub fn kp_prajna(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of Prajna".to_string()
-  }
-}
-#[derive(Debug)]
-pub struct AwarenessPrajna; // a unit-like node
-impl AwarenessPrajna { // methods to identify Prajna
-  pub fn kp_awareness_prajna(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of AwarenessPrajna".to_string()
-  }
-}
-#[derive(Debug)]
-pub struct SamadhiPrajna; // a unit-like node
-impl SamadhiPrajna { // methods to identify SamadhiPrajna
-  pub fn kp_samadhi_prajna(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of SamadhiPrajna".to_string()
-  }
-}
-#[derive(Debug)]
-pub struct PrajnaTIP1; // a unit-like node
-impl PrajnaTIP1 { // methods to identify PrajnaTIP1
-  pub fn kp_prajna_tip1(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of PrajnaTIP1".to_string()
-  }
-}
-#[derive(Debug)]
-pub struct PrajnaTIP2; // a unit-like node
-impl PrajnaTIP2 { // methods to identify PrajnaTIP2
-  pub fn kp_prajna_tip2(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of PrajnaTIP2".to_string()
-  }
+impl Pointer { 
+	// methods to identify hidden layers of #EmptyTheContent
+	pub fn empty_the_content(&self) -> String { // f(_x,_y) for ponter #EmptyTheContent
+	    return "an accepted formal evaluation of pointer EmptyTheContent".to_string()
+	}
+	// methods to identify hidden layers of #DhyanaSamadhi
+	pub fn dhyana_samadhi(&self) -> String 	{ // f(_x,_y) for pointer #DhyanaSamadhi
+	    return "an accepted formal evaluation of pointer DhyanaSamadhi".to_string()
+	}
+	// methods to identify hidden layers of #Samadhi
+	pub fn samadhi(&self) -> String { // f(_x,_y) for pointer #Samadhi
+	    return "an accepted formal evaluation of pointer Samadhi".to_string()
+	}
+	// methods to identify hidden layers of #Awareness
+	pub fn awareness(&self) -> String 	{ // f(_x,_y) for pointer #Awareness
+	    return "an accepted formal evaluation of pointer Awareness".to_string()
+	}	
+	// methods to identify hidden layers of #Prajna
+	pub fn prajna(&self) -> String { // f(_x,_y) for ponter #Prajna
+	    return "an accepted formal evaluation of pointer Prajna".to_string()
+	}
+	// methods to identify hidden layers of #AwarenessPrajna
+	pub fn awareness_prajna(&self) -> String 	{ // f(_x,_y) for pointer #AwarenessPrajna
+	    return "an accepted formal evaluation of pointer AwarenessPrajna".to_string()
+	}
+	// methods to identify hidden layers of #SamadhiPrajna
+	pub fn samadhi_prajna(&self) -> String { // f(_x,_y) for pointer #SamadhiPrajna
+	    return "an accepted formal evaluation of pointer SamadhiPrajna".to_string()
+	}
+	// methods to identify hidden layers of #PrajnaTIP1
+	pub fn prajna_tip1(&self) -> String 	{ // f(_x,_y) for pointer #PrajnaTIP1
+	    return "an accepted formal evaluation of pointer PrajnaTIP1".to_string()
+	}	
+	// methods to identify hidden layers of #PrajnaTIP2
+	pub fn prajna_tip2(&self) -> String 	{ // f(_x,_y) for pointer #PrajnaTIP2
+	    return "an accepted formal evaluation of pointer PrajnaTIP2".to_string()
+	}
 }
 
 /*
@@ -435,7 +266,8 @@ impl PrajnaTIP2 { // methods to identify PrajnaTIP2
   communications between Oneness >< Diversities"),};
   println!("I'm connecting to node {:?}!", _truth.kind);
   
-/// Explore trait - extension of iterator - in activities and relationships.
+/// Explore trait - extension of iterator - in activities and relationships types to qualify
+/// truth as in their trait.
 ///
 /// pub trait Truth 
 ///	{
@@ -477,19 +309,11 @@ impl PrajnaTIP2 { // methods to identify PrajnaTIP2
 /// assert_eq!(0, answer);
 /// ```
 
-pub enum Xtraits {
-  Truth, Honesty, Care, Intuition, Balanced,
-  KindnessEmpathy, Influenced, Veiled, Indoctrinated,
-}
 
 */
 
-/*
-  The following enums [ Xtraits, Xlevels, Ypointers, Ylevels, Flevels, OneToDependent ] 
-  and their implementations are used for specialized searches.
-*/
 #[derive(Debug)]
-pub enum Xtraits {
+pub enum HasTrait {
   Truth(String),			// use cosmic energy
   Honesty(String), 			// KnowingThought
   Care(String),				// investigation, inquiries
@@ -500,14 +324,68 @@ pub enum Xtraits {
   Veiled(String),			// hoax, fooled
   Indoctrinated(String),	// visible in BindingWord, BindingImage, ClingingThought
 }
-// Claimed solutions to be verified for rated quality of the variant
-// The impl demands  scientifically cultivable variant for its movement from one to another  
-// connected to the rated Fibonacci complex number
-impl Xtraits {
-//    fn verified(&self) {
+
+// Verify if the types passed or failed the defined trait.
+impl HasTrait {
+    fn verified(&self) {
        // method body would be defined here
-//    }
+    }
 }
+
+// use generic type of Trait
+#[derive(Debug)]
+struct Trait<T> {
+    // common structure of #Trait
+    t: T,		// use cosmic energy
+    h: T, 		// KnowingThought
+    c: T,		// investigation, inquiries
+    i: T,		// Intuition Trust, Qi, Art
+    b: T,		// qualified person
+    k: T,		// HonNhien
+    e: T,		// cultural, regional, national
+    v: T,		// hoax, fooled
+    i: T,		// visible in BindingWord, BindingImage, ClingingThought
+}
+
+impl Trait { 
+	// methods to identify #Truth
+	pub fn truth(&self) -> String 	{ // f(_x,_y) for trait #Truth
+	    return "an accepted formal evaluation of trait Truth".to_string()
+	}
+	// methods to identify #Honesty
+	pub fn honesty(&self) -> String 	{ // f(_x,_y) for trait #Honesty
+	    return "an accepted formal evaluation of trait Honesty".to_string()
+	}
+	// methods to identify #Care
+	pub fn care(&self) -> String 	{ // f(_x,_y) for trait #Care
+	    return "an accepted formal evaluation of trait Care".to_string()
+	}
+	// methods to identify #Intuition
+	pub fn intuition(&self) -> String 	{ // f(_x,_y) for trait #Intuition
+	    return "an accepted formal evaluation of trait Intuition".to_string()
+	}
+	// methods to identify #Balance
+	pub fn balanced(&self) -> String 	{ // f(_x,_y) for trait #Balanced
+	    return "an accepted formal evaluation of trait Balance".to_string()
+	}
+	// methods to identify #KindnessEmpathy
+	pub fn kindness_empathy(&self) -> String 	{ // f(_x,_y) for trait #KindnessEmpathy
+	    return "an accepted formal evaluation of trait KindnessEmpathy".to_string()
+	}	
+	// methods to identify #Influenced
+	pub fn influence(&self) -> String 	{ // f(_x,_y) for trait #Influenced
+	    return "an accepted formal evaluation of trait Care".to_string()
+	}
+	// methods to identify #Veiled
+	pub fn veiled(&self) -> String 	{ // f(_x,_y) for trait #Veiled
+	    return "an accepted formal evaluation of trait Veiled".to_string()
+	}
+	// methods to identify #Indoctrinated
+	pub fn indoctrinated(&self) -> String 	{ // f(_x,_y) for trait #Care
+	    return "an accepted formal evaluation of trait Indoctrinated".to_string()
+	}
+}
+
 // for outside contributions
 #[derive(Debug)]
 pub enum Xlevels { // type behavior based on its traits and its rated major bounded one
@@ -538,7 +416,7 @@ impl Xlevels {
 /*
  Based on empirical observation of a naturally qualified person, one has innate ability to be
  outside-the-box due to sufficient compassion and #Prajna in visible trait #Balanced above
- the visible trait of #KindnessEmpathy defined in Latin humanitas. This is Vietnamese KienTanh
+ the visible trait of #KindnessEmpathy defined in Latin humanitas. This is VN KienTanh
  to (1) claim one's Dignity of Human Rights protected by modern society, then (2) DISCOVER
  and SHARE underlying natural laws to personally verify statistically significant epistemic
  objectives from indescribable "One" to "Diversities of Dependent" and back to "One" of
@@ -557,15 +435,16 @@ impl Xlevels {
 
  All manifestations are conditioned and subjected to changes at Planck time. It has been
  proven in generative agenic AI that an optimal process can be engineered for a desired 
- manifestation happened. Based on recorded experiences of LaoTzu, Gotama, Jesus, Bodhidharma, 
- HuiNeng, etc, their states of positive manifestations y_dimension naturally produce smart
- pointers pointing to different observable traits in their qualities. "#Truth" is the
- identified "trait" in the qualities of [ Diversities >< Oneness / Hửu Không Vô Ngại / 
- Self-Selfless Actualization ]. Observable smart pointers are reported pointers pointing to 
- the required traits in observable evolution or negative traits leading to degeneration.
- Starting from achievable qualities of these front-line soldiers, we identify smart pointers 
- ready for academia researches the structure and attributes of these smart pointers, then 
- expose them in # for public tweet and tweet-on-tweet further contribution in LLM models.
+ manifestation happened. Based on recorded experiences of LaoTzu, Gotama, Jesus, 
+ Bodhidharma, HuiNeng, etc, their states of positive manifestations y_dimension naturally 
+ produce smart pointers pointing to different observable traits in their qualities. "#Truth" 
+ is the identified "trait" in the qualities of [ Diversities >< Oneness / Hửu Không Vô 
+ Ngại / Self-Selfless Actualization ]. Observable smart pointers are reported pointers 
+ pointing to the required traits in observable evolution or negative traits leading to 
+ degeneration. Starting from achievable qualities of these front-line soldiers, we identify 
+ smart pointers ready for academia researches the structure and attributes of these smart 
+ pointers, then expose them in # for public tweet and tweet-on-tweet further contribution in 
+ LLM models.
 
 
 //! Enforce QualifiedHumanitas for natural detachment of dhyana, then Samadhi for
@@ -585,8 +464,9 @@ impl Xlevels {
 /// assert_eq!(0, answer);
 /// ```
 
-struct EmptyTheContent {
-	type item;
+struct EmptyTheContent { // for defined types of activities and relationships
+	type item; // explore the substrates of weighting functions + biases leading to
+	           // activation function producing the trait. Same thing to other Ypointers
 }
 
 pub enum Ypointers { QualifiedHumanitas, 
@@ -662,9 +542,10 @@ pub enum Flevels { // type behavior based on its traits and its rated major boun
   Smelly2(String),						// esoteric Vampire
   Smelly3(String),						// esoteric X-of-Prey
 }
-// Claimed solutions to be verified for rated quality of the variant
+// Claimed solutions to be verified for rated qualia of visible traits on XLevel having 
+// weighted substrates and biases YLevel pointing to the visible traits of the variant.
 // The impl demands  scientifically cultivable variant for its movement from one to another  
-// connected to the rated Fibonacci complex number
+// connected to the rated Fibonacci complex number.
 impl Flevels {
 //    fn verified(&self) {
        // method body would be defined here
@@ -672,27 +553,27 @@ impl Flevels {
 }
 
 #[derive(Debug)]
-pub enum OneToDependents { 
-  Oneness(String),          // Oneness >< Diversities
-  
-  Diversities(String),
+pub enum OneToDiversity { 
+  Oneness(String),          // Oneness >< Diversity
       
-  FourFoldTruth(String),	// of Dukkha - to be proven as Epistemic Objective
   GodKingdom(String),		// within - to be proven as Epistemic Objective 
+  FourFoldTruth(String),	// of Dukkha - to be proven as Epistemic Objective
   Sirr(String),				// of sufi to be proven as Epistemic Objective
   Monad(String),			// of Jew to be proven as Epistemic Objective
   Vedanta(String),	  		// of Hindu - to be proven as Epistemic Objective 
   Esoteric(String),			// of ETs & Spirits to be proven as Epistemic Objective
   
+  AwakeningBudh(String),
+    
+  TamingTheOx(String),
+  AtHome(String),
+  
   Morality(String),
   Patience(String),
   Justice(String),
+  
   Integrity(String),
     
-  AwakeningBudh(String),	// based of measurable Meritocracy
-  AtHome(String),
-  TamingTheOx(String),		// TamingTheOx - to be proven as Epistemic Objective
-
   Heaven(String),           // I-Ching, LaoTzu to be proven as Epistemic Objective
   Earth(String),  
   People(String), 
@@ -722,183 +603,172 @@ impl OneToDependents {
 //    }
 }
 
+// use generic type of Diversity
 #[derive(Debug)]
-pub struct FourFoldTruth; // a unit-like node
-impl FourFoldTruth { // methods to identify FourFoldTruth
-  pub fn kp_four_fold_truth(&self) -> String { // f(_x,_y) for Inter-Realm
-    return "an accepted formal evaluation of FourFoldTruth".to_string()
-  }
+struct Diversity<T> {
+	g: T, // GodKingdom
+    f: T, // FourFoldTruth
+    s: T, // Sirr
+    m: T, // Monad
+    v: T, // Vedanta 
+    l: T, // Living
+    
+    a: T, // AwakeningBudh
+    
+    t: T, // TamingTheOx
+    ah: T, // AtHome
+
+    mo: T, // Morality
+    p: T, // Patience
+    j: T, // Justice
+    
+    i: T, // Integrity
+    
+    h: T, // Heaven
+    e: T, // Earth
+    p: T, // People
+    
+    n: T, // Nhan
+    ng: T, // Nghia
+    le: T, // Le
+    tr: T, // Tri
+    ti: T, // Tin
+    
+    r: T, // RootChakra
+    sa: T, // SacralChakra
+    th: T, // ThirdChakra
+    he: T, // HeartChakra
+    tc: T, // ThroadChakra
+    te: T, // ThirsEye
+    c: T, // CrownChakra
 }
-#[derive(Debug)]
-pub struct GodKingdom; // a unit-like node
-impl GodKingdom { // methods to identify GodKingdom
-  pub fn kp_god_kingdom(&self) -> String { // f(_x,_y) for Inter-Realm
+impl Diversity { 
+  // methods to identify GodKingdom
+  pub fn god_kingdom(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of GodKingdom".to_string()
   }
-}
-#[derive(Debug)]
-pub struct Sirr; // a unit-like node
-impl Sirr { // methods to identify Sirr
-  pub fn kp_sirr(&self) -> String { // f(_x,_y) for Inter-Realm
+  // methods to identify FourFoldTruth
+  pub fn four_fold_truth(&self) -> String { // f(_x,_y) for Inter-Realm
+    return "an accepted formal evaluation of FourFoldTruth".to_string()
+  }
+  // methods to identify Sirr
+  pub fn sirr(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of Sirr".to_string()
   }
-}
-#[derive(Debug)]
-pub struct Monad; // a unit-like node
-impl Monad { // methods to identify Monad
-  pub fn kp_monad(&self) -> String { // f(_x,_y) for Inter-Realm
+  // methods to identify Monad
+  pub fn monad(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of Monad".to_string()
   }
-}
-#[derive(Debug)]
-pub struct AwakeningBudh; // a unit-like node
-impl AwakeningBudh { // methods to identify in AwakeningBudh
-  pub fn kp_awakening_budh(&self) -> String { // f(_x,_y) for Inter-Realm
+  // methods to identify Vedanta
+  pub fn vedanta(&self) -> String { // f(_x,_y) for Inter-Realm
+    return "an accepted formal evaluation of Vedanta".to_string()
+  }
+  // methods to identify Esoteric
+  pub fn esoteric(&self) -> String { // f(_x,_y) for Inter-Realm
+    return "an accepted formal evaluation of Esoteric".to_string()
+  }
+  
+  // methods to identify in AwakeningBudh
+  pub fn awakening_budh(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of AwakeningBudh".to_string()
   }
-}
-#[derive(Debug)]
-pub struct TamingTheOx; // a unit-like node
-impl TamingTheOx { // methods to identify TamingTheOx
-  pub fn kp_taming_the_ox(&self) -> String { // f(_x,_y) for Inter-Realm
+  
+  // methods to identify TamingTheOx
+  pub fn taming_the_ox(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of TamingTheOx".to_string()
   }
-}
-#[derive(Debug)]
-pub struct Morality; // a unit-like node
-impl Morality { // methods to identify Morality
-  pub fn kp_morality(&self) -> String { // f(_x,_y) for Morality
+  // methods to identify AtHome
+  pub fn at_home(&self) -> String { // f(_x,_y) for Inter-Realm
+    return "an accepted formal evaluation of AtHome".to_string()
+  }
+  
+  // methods to identify Morality mo
+  pub fn morality(&self) -> String { // f(_x,_y) for Morality
     return "an accepted formal evaluation of Morality".to_string()
   }
-}
-#[derive(Debug)]
-pub struct Justice; // a unit-like node
-impl Justice { // methods to identify Justice
-  pub fn kp_justice(&self) -> String { // f(_x,_y) for Justice
+  // methods to identify Patience
+  pub fn patience(&self) -> String { // f(_x,_y) for Morality
+    return "an accepted formal evaluation of Patience".to_string()
+  }
+  // methods to identify Justice
+  pub fn justice(&self) -> String { // f(_x,_y) for Justice
     return "an accepted formal evaluation of Justice".to_string()
   }
-}
-#[derive(Debug)]
-pub struct Integrity; // a unit-like node
-impl Integrity { // methods to identify Integrity
-  pub fn kp_integrity(&self) -> String { // f(_x,_y) for Integrity
+  
+  // methods to identify Integrity
+  pub fn integrity(&self) -> String { // f(_x,_y) for Integrity
     return "an accepted formal evaluation of Integrity".to_string()
   }
-}
-
-#[derive(Debug)]
-pub struct Heaven; // a unit-like node
-impl Heaven { // methods to identify Heaven
-  pub fn kp_heaven(&self) -> String { // f(_x,_y) for Inter-Realm
+  
+  // methods to identify Heaven
+  pub fn heaven(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of Heaven".to_string()
   }
-}
-#[derive(Debug)]
-pub struct Earth; // a unit-like node
-impl Earth { // methods to identify Earth
-  pub fn kp_earth(&self) -> String { // f(_x,_y) for Inter-Realm
+  // methods to identify Earth
+  pub fn earth(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of Earth".to_string()
   }
-}
-#[derive(Debug)]
-pub struct People; // a unit-like node
-impl People { // methods to identify People
-  pub fn kp_people(&self) -> String { // f(_x,_y) for Inter-Realm
+  // methods to identify People
+  pub fn people(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of People".to_string()
   }
-}
-
-#[derive(Debug)]
-pub struct Nhan; // a unit-like node
-impl Nhan { // methods to identify Nhan
-  pub fn kp_nhan(&self) -> String { // f(_x,_y) for Inter-Realm
+  
+  // methods to identify Nhan
+  pub fn nhan(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of Nhan".to_string()
   }
-}
-#[derive(Debug)]
-pub struct Nghia; // a unit-like node
-impl Nghia { // methods to identify Ngnia
-  pub fn kp_nghia(&self) -> String { // f(_x,_y) for Inter-Realm
+  // methods to identify Nghia
+  pub fn nghia(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of Nghia".to_string()
   }
-}
-#[derive(Debug)]
-pub struct Le; // a unit-like node
-impl Le { // methods to identify Le
-  pub fn kp_le(&self) -> String { // f(_x,_y) for Inter-Realm
+  // methods to identify Le
+  pub fn le(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of Le".to_string()
   }
-}
-#[derive(Debug)]
-pub struct Tri; // a unit-like node
-impl Tri { // methods to identify Tri
-  pub fn kp_tri(&self) -> String { // f(_x,_y) for Inter-Realm
+  // methods to identify Tri
+  pub fn tri(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of Tri".to_string()
   }
-}
-#[derive(Debug)]
-pub struct Tin; // a unit-like node
-impl Tin { // methods to identify Le
-  pub fn kp_tin(&self) -> String { // f(_x,_y) for Inter-Realm
+  // methods to identify Tin
+  pub fn tin(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of Tin".to_string()
   }
-}
-
-#[derive(Debug)]
-pub struct RootChakra; // a unit-like node
-impl RootChakra { // methods to identify RootChakra
-  pub fn kp_root_chakra(&self) -> String { // f(_x,_y) for Inter-Realm
+  
+  // methods to identify RootChakra
+  pub fn root_chakra(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of RootChakra".to_string()
   }
-}
-#[derive(Debug)]
-pub struct SacralChakra; // a unit-like node
-impl SacralChakra { // methods to identify SacralChakra
-  pub fn kp_sacral_chakra(&self) -> String { // f(_x,_y) for Inter-Realm
+  // methods to identify SacralChakra
+  pub fn sacral_chakra(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of SacralChakra".to_string()
   }
-}
-#[derive(Debug)]
-pub struct ThirdChakra; // a unit-like node
-impl ThirdChakra { // methods to identify ThirdChakra
-  pub fn kp_third_chakra(&self) -> String { // f(_x,_y) for Inter-Realm
+  // methods to identify ThirdChakra
+  pub fn third_chakra(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of ThirdChakra".to_string()
   }
-}
-#[derive(Debug)]
-pub struct HeartChakra; // a unit-like node
-impl HeartChakra { // methods to identify HeartChakra
-  pub fn kp_heart_chakra(&self) -> String { // f(_x,_y) for Inter-Realm
+  // methods to identify HeartChakra
+  pub fn heart_chakra(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of HeartChakra".to_string()
-  }
-}
-#[derive(Debug)]
-pub struct ThroatChakra; // a unit-like node
-impl ThroatChakra { // methods to identify ThroatChakra
-  pub fn kp_throat_chakra(&self) -> String { // f(_x,_y) for Inter-Realm
+  }  
+  // methods to identify ThroatChakra
+  pub fn throat_chakra(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of ThroatChakra".to_string()
   }
-}
-#[derive(Debug)]
-pub struct ThirdEye; // a unit-like node
-impl ThirdEye { // methods to identify ThirdEye
-  pub fn kp_third_eye(&self) -> String { // f(_x,_y) for Inter-Realm
+  // methods to identify ThirdEye
+  pub fn third_eye(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of ThirdEye".to_string()
   }
-}
-#[derive(Debug)]
-pub struct CrownChakra; // a unit-like node
-impl CrownChakra { // methods to identify CrownChakra
-  pub fn kp_crown_chakra(&self) -> String { // f(_x,_y) for Inter-Realm
+  // methods to identify CrownChakra
+  pub fn crown_chakra(&self) -> String { // f(_x,_y) for Inter-Realm
     return "an accepted formal evaluation of CrownChakra".to_string()
   }
-}
 
+}
 
 /*
   Dynamic interactions between IamX intelligence and positive AI of custom modeling the
   objective function #Prajna = f(x, y) in "complex-valued data" to foster innovations /
-  breakthroughs in the Persona's war room and strategies for various types: a Latin humanitas,
+  breakthroughs in the Persona's war room and strategies for various types: a humanitas,
   next qualified realm, an organization, foreign affairs, national development, etc.
   
   Modeling the InnerSpace is the systematic building internal power for different stages of
@@ -937,25 +807,28 @@ impl InnerSpace { // different methods for different InnerSpace persona types
 
 }
 
-
-
-
+// Measurable conditions favorable to induce Intuitions and Prajna and/or changing from
+// negative traits to positive traits
 pub mod place {
-    pub mod hub {
+    pub mod hub_centre {
 		pub fn inner_agent() {}
 		pub fn outer_agent() {}
     }
-    pub mod thank_you {
+    pub mod thankyou_centre {
 		pub fn inner_agent() {}
 		pub fn outer_agent() {}
     }
-    pub mod other {
+    pub mod prajna_centre {
+		pub fn inner_agent() {}
+		pub fn outer_agent() {}
+    }
+    pub mod other { // identified by city
 		pub fn inner_agent() {}
 		pub fn outer_agent() {}
     } 
 }
 
-pub mod relationship {
+pub mod relationship { //of all types
     pub mod family {
 		pub fn inner_agent() {}
 		pub fn outer_agent() {}
@@ -978,7 +851,15 @@ pub mod relationship {
     } 
 }
 
-
 // modules specific to KpPlatform
 
+/*
+#[derive(Debug)]
+pub struct FourFoldTruth; // a unit-like node
+impl FourFoldTruth { // methods to identify FourFoldTruth
+  pub fn kp_four_fold_truth(&self) -> String { // f(_x,_y) for Inter-Realm
+    return "an accepted formal evaluation of FourFoldTruth".to_string()
+  }
+}
+*/
 
