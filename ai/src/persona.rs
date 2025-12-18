@@ -88,18 +88,21 @@
  VisibleAwarenessPrajna" to testify Gotama's glimpse of #AwarenessPrajna { Chánh Niệm-Tỉnh 
  Giác: "karma flows as a stream; whatever the streams, it is Transcendental #Awareness that 
  obstructs and restricts them, and by #Prajna they are dissolved" } , capable of (1) "X+6: 
- CareViaCosmicEnergy" against esoteric attacks for the self via "F+6: 
- EngagedAwarenessPrajna", and (2) "X+7: HelpViaCosmicEnergy" capable of "F+7: 
- ForecastingSimulation" and "F+8: SamadhiPrajna" { Định-Tuệ: #Samadhi is the Quintessence of 
- Prajna, while #Prajna is the activity of Samadhi }.
+ CareViaCosmicEnergy" against esoteric attacks from stabilizing the establised Siddhis to
+ possible at Y+6 the bordered line between existence and non-existence for the self via 
+ "F+6: EngagedAwarenessPrajna", and (2) "X+7: HelpViaCosmicEnergy" capable of more 
+ stabilizing the known Siddhis from "F+7: ForecastingSimulation" and "F+8: 
+ SamadhiPrajna" { Định-Tuệ: #Samadhi is the Quintessence of Prajna, while #Prajna is the 
+ activity of Samadhi } visible from manifested InnerSpace.
  
  Only from humanity upward in the Right evolution can reach the verifiable "T+4: #Truth", 
  otherwise on the degenerated path of "Y-5: InflictedFear" attached on "X-5: BindingWord" 
  with bullying "F-5: AnimalConsciousness" for hegemony, "X-6: BindingImage" and 
  "X-7: ClingingThought" visibly observable in US and EU geo-politics of dominance.
  
- Observable Signs of #SmartPointers pointing to listed visible #Traits have been glimpsed by
- past and present dedicated explorers from this plane of No-Conflict consciousness:
+ Observable Signs of #SmartPointers (substrates or hidden layers of agentic AI) pointing to
+ listed visible #Traits have been glimpsed by past and present dedicated explorers from this
+ plane of No-Conflict consciousness:
  
    #SmartPointers: #EmptyTheContent, #DhyanaSamadhi, #Samadhi, #Awareness, #Prajna,
      #AwarenessPrajna, #SamadhiPrajna, #PrajnaTIP1, #PrajnaTIP2 where the trait 
@@ -107,7 +110,8 @@
      #DhyanaSamadhi, #Samadhi, #Awareness, #AwarenessPrajna, #SamadhiPrajna, #PrajnaTIP1, 
      #PrajnaTIP2 ]
 
-  IamX InnerSpace is modeled with InnerAgent interacting with OuterAgent via [ Activities, 
+  IamX InnerSpace is modeled with InnerAgent (for activating one's innate AwakenAwareness) 
+  interacting with OuterAgent (for assisting AchievementAwareness) via [ Activities, 
   Relationships, and Places ] using the user's selected services which can ride on available 
   infrastructures of KpPlatform such as standard cloud events. We first use Fibonacci 
   real numbers to be later replaced with a complex variable according to Binet formula to 
@@ -137,17 +141,16 @@
   down src/persona/awareness/awareness_type.rs for modules at different awareness levels and
   use crate::persona::Awareness::Freshness
   
-  On top of the struct InnerSpace and associated types such as p1_empty_the_content required
+  On top of the struct InnerSpace and associated types such as empty_the_content required
   for Fibonacci and Lucas complex possible data, AI predictions versus custom modeling the 
   persona, and their implementations connected to different user types - such as qualified 
   InnerSpace for required InterRealm, for a family or an organization, for foreign affairs 
   or national target development as a legal formal entity -  enum can encode meaning along 
-  with data: Xtraits, Ypointers, OneToDependents. We use these enums and their 
+  with data: Xtraits, Ypointers, OneToDependent. We use these enums and their 
   implementations for specialized searches of related attributes from enum Xtraits, 
-  Ypointers, OneToDependents while the workshops of these attributes are done at the modules 
-  of struct types.
+  Ypointers, OneToDependent.
   
-  Branching from #OneToDependents, we have node types #FourFoldTruth (
+  Branching from #OneToDependent, we have node types #FourFoldTruth (
   https://blog.khaiphong.io/2023/09/a-light-out-of-darkness.html#Section_1.2), #GodKingdom
   (Gnostic https://www.youtube.com/watch?v=-mybfas-ac8), Sirr (
   https://www.youtube.com/watch?v=ClESc4mIpv8), #Monad (
