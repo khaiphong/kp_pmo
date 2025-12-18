@@ -165,8 +165,6 @@
   creator in a part of the corporate cultural creation.
 */
 
-
-
 /* 
   HashMap will be replaced with db_map_container, a bare bone K-V store with root namespace 
   of unique Id and telemetry of resource usage + costs for markeing and management, rated at 
@@ -475,5 +473,4 @@ fn f_evaluation(f: HashMap<i32, String>) -> Vec<i32> {
     
     return vec![0]; // rated complex Fibinacci level
 }
-
 
