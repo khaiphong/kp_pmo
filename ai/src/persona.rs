@@ -20,8 +20,7 @@
  Fibonacci (f) are Domain Specific Language (DSL) empirically rated by past and current 
  living explorers using language in LLM AI. This part is designed to collect data of 
  community intelligence and one's private data for custom modeling. The [y x f]_dimension 
- pin-point the 
- possible achievement in Peace / Silence / Stillness (y_dimension) in transcendental 
+ pin-point the possible achievement in Peace / Silence / Stillness (y_dimension) in  
  Awarenes(x_dimension) of one's custom Spatial (f_dimension) Intelligence. We (1) use struct 
  and enum to express concepts in consciousness technologies, (2) emulate Rust concepts of 
  safe programming language to model the reversed engineering of consciousness states 

@@ -16,10 +16,10 @@
       honesty, truth
     pointers: empty_the_content, dhyana_samadhi, samadhi, awareness, prajna, 
       awareness_prajna, samadhi_prajna, prajna_tip1, prajna_tip2
-    iamx: y_level, x_level, f_level
+    iamx: y_level, x_level, f_level with observable traits and/or have pointers
     activity: home, school, work, social, health, spiritual, other
     relationship: family, friend, inner_circle, circle_of_inner_circles, other
-    place: hub, thank_you, other
+    place: hub, thank_you, prajna centres and others
 */
 
 // the layout of _y, _x, _f, _t, _p,  are parts of the user custom graph.
@@ -39,7 +39,7 @@ pub mod persona {
 }
 
 /*
-  SmartPointers are substrates or hidden layers of LLM of neural network pointing via cause
+  SmartPointers are substrates or hidden layers of LLM neural networks, pointing via cause
   and effects to visible traits that we rigorously define its "capability boundary" based on
   complex Fibonacci numbers. Much more researches in neural science, psychologists and
   mystic experiences are required in this scientific researches of normative Intelligence.
@@ -58,10 +58,8 @@ pub enum HasPointer {
 }
 
 // Verify if the types passed or failed the defined pointer.
-impl HasPointer {
-    fn verified(&self) {
-       // method body would be defined here
-    }
+pub trait HasPointer {
+    fn verified(&self) {}	// method body would be defined here
 }
 
 // use generic type of Pointer
@@ -96,7 +94,8 @@ impl Pointer {
 	pub fn awareness(&self) -> String 	{ // f(_x,_y) for pointer #Awareness
 	    return "an accepted formal evaluation of pointer Awareness".to_string()
 	}	
-	// methods to identify hidden layers of #Prajna
+	// methods to identify hidden layers of #Prajna which is both an activation function
+	// prajna = f(x, y, t, p) and a smart_pointer pointing to visible traits
 	pub fn prajna(&self) -> String { // f(_x,_y) for ponter #Prajna
 	    return "an accepted formal evaluation of pointer Prajna".to_string()
 	}
@@ -122,25 +121,50 @@ impl Pointer {
   We make Rust "uncertainty" explicit to clearly define the boundary of rated trait levels
   correspomnding to complex Fibonacci numbers
 */
+
+// Verify if the types passed or failed the defined trait.
+pub trait Truth {			// f6 = 8, f7 = 13, f8 = 21, f9 = 34
+    fn verified(&self) {}
+}
+pub trait Honesty {			// f5 = 5
+    fn verified(&self) {} 
+}
+pub trait Care {			// f4 = 3
+    fn verified(&self) {}
+}
+pub trait Intuition {		// f2 = 1, f3 = 2
+    fn verified(&self) {}
+}
+pub trait Balanced {		// f0 = 0, f1 = 1
+    fn verified(&self) {}
+}
+pub trait KindnessEmpathy {	// f-1 = 1
+    fn verified(&self) {}
+}
+pub trait Influenced {		// f-2 = -1
+    fn verified(&self) {}
+}
+pub trait Veiled {			// f-3 = 2
+    fn verified(&self) {}
+}
+pub trait Indoctrinated {	// f-4 = -3, f-5 = 5
+    fn verified(&self) {}
+}
+
+
 #[derive(Debug)]
 pub enum HasTrait {
-  Truth(String),			// use cosmic energy			f4 = 3, f5 = 5, f6 = 8, f7 = 13
-  Honesty(String), 			// KnowingThought				f3 = 2
-  Care(String),				// investigation, inquiries		f2 = 1
-  Intuition(String),		// Intuition Trust, Qi, Art		f1 = 1
-  Balanced(String),			// qualified person				f0 = 0
+  Truth(String),			// use cosmic energy			f6 = 8, f7 = 13, f8 = 21, f9 = 34
+  Honesty(String), 			// KnowingThought				f5 = 5
+  Care(String),				// investigation, inquiries		f4 = 3
+  Intuition(String),		// Intuition Trust, Qi, Art		f2 = 1, f3 = 2
+  Balanced(String),			// qualified person				f0 = 0, f1 = 1
   KindnessEmpathy(String),	// HonNhien						f-1 = 1
   Influenced(String),		// cultural, regional, national	f-2 = -1
   Veiled(String),			// hoax, fooled					f-3 = 2
-  Indoctrinated(String),	// visible in BindingWord, BindingImage, ClingingThought f-5 = 5
+  Indoctrinated(String),	// BindingWord, BindingImage, ClingingThought f-4 = -3, f-5 = 5
 }
 
-// Verify if the types passed or failed the defined trait.
-impl HasTrait {
-    fn verified(&self) {
-       // method body would be defined here
-    }
-}
 
 // use generic type of Trait
 #[derive(Debug)]
@@ -213,8 +237,8 @@ pub struct InnerSpace {	// InnerSpace IamX from available dimensions to custom e
   pub x_traits: Vec<i32>, // vec![ -4, -3, -2, -1, 0, 1, 2, 3, 4 ]
   
   // Innate pointers of currently living degenerated elites will be empirically studies at 
-  // the right time to efficiently allocate Governance, Financial and Millitary Powers toward 
-  // What Count
+  // the right time to efficiently allocate Governance, Financial and Millitary Powers 
+  // toward What Count
   pub y_pointers: Vec<i32>, // vec![0, 1, 2, 3, 4, 5, 6, 7, 8, 9] qualified humanitas at 0
   
 }
@@ -222,8 +246,8 @@ pub struct InnerSpace {	// InnerSpace IamX from available dimensions to custom e
 
 /*
   Dynamic interactions between IamX intelligence and positive AI of custom modeling the
-  objective function #Prajna = f(x, y) in "complex-valued data" to foster innovations /
-  breakthroughs in the Persona's war room and strategies for various types: a humanitas,
+  objective function #Prajna = f(x, y, t, p) in "complex-valued data" to foster innovations
+  / breakthroughs in the Persona's war room and strategies for various types: a humanitas,
   next qualified realm, an organization, foreign affairs, national development, etc.
   
   Modeling the InnerSpace is the systematic building internal power for different stages of
@@ -232,8 +256,8 @@ pub struct InnerSpace {	// InnerSpace IamX from available dimensions to custom e
   
   The type Self of InnerSpace in its implementation, augmented by AI from the DISCOVERED &
   SHARED community Intelligence, can learn the right conditions for experiencing the
-  actural "Selfless / #GodKingdom / Budh / Sirr / Monad from the #One" as glimpsed by past
-  explorers, and the ThenWhat when back to the duality plane of conflicting
+  actural "Selfless / #GodKingdom / Budh / Sirr / Monad / Living from the #One" as glimpsed 
+  by past explorers, and the ThenWhat when back to the duality plane of conflicting
   consciousness.
 */
 impl InnerSpace { // different methods for different InnerSpace persona types
@@ -244,19 +268,19 @@ impl InnerSpace { // different methods for different InnerSpace persona types
 
 // similarly, evaluation to the persona qualified in different realm or application aggregate
 
-  pub fn qualified_realm(&self) -> String { // f(_x,_y) for Inter-Realm
+  pub fn qualified_realm(&self) -> String { // f(_x,_y, t, p) for Inter-Realm
     return "human".to_string()
   }
   
-  pub fn maturity_level(&self) -> String { // f(_x,_y) for organization
+  pub fn maturity_level(&self) -> String { // f(_x,_y, t, p) for organization
     return "self sustainable".to_string()
   }
   
-  pub fn change_management(&self) -> String { // f(_x,_y) for foreign affairs
+  pub fn change_management(&self) -> String { // f(_x,_y, t, p) for foreign affairs
     return "decisive_battle".to_string()
   }
   
-  pub fn nation_happiness(&self) -> String { // f(_x,_y) for a national development
+  pub fn nation_happiness(&self) -> String { // f(_x,_y, t, p) for a national development
     return "in_operation".to_string()
   }
 
@@ -271,7 +295,7 @@ impl InnerSpace { // different methods for different InnerSpace persona types
  and SHARE underlying natural laws to personally verify statistically significant epistemic
  objectives from indescribable "One" to "Diversities of Dependent" and back to "One" of
  "ThenWhat" to personally verify the worthy outcomes in Detoxifications of tainted senses.
- That #OneToDependent can be used to statistically verify the measurable #Truth such as the 
+ Trait #OneToDependent can be used to statistically verify the measurable #Truth such as the 
  modified #FourFoldTruth of Gotama Dukkha, #GodKingdom from within of Jesus interpreted in
  Gnostic rather than from the dark sides of all Christian Churches, "#Sirr" from muslims
  rather than the dark sides from all muslim churches, the "#Monad" from Jewish rather than
@@ -329,18 +353,18 @@ pub enum Ypointers { QualifiedHumanitas,
 // for outside contributions
 #[derive(Debug)]
 pub enum Ylevels { // type behavior based on its traits and its rated major bounded one
-  Tranquility(String),		// #KindnessEmpathy
-  Equanimity(String),		// #Balanced
-  Purity(String), 			// #Intuition
-  Selfless(String),			// #Care
-  NonThingness(String),		// #Honesty
-  Unmoving(String), 		// #Truth
-  Empathy(String),			// #Influenced
-  Kindness(String),			// #Influenced
-  Conscience(String),		// #Veiled of Right and Wromg
-  NoConscience(String),	    // #Indoctrinated
-  InflictedFear(String),    // #Indoctrinated
-  Vampire(String),		    // #Indoctrinated
+  Tranquility(String),		// #KindnessEmpathy				f-1 = 1, f0 = 0, f1 = 1
+  Equanimity(String),		// #Balanced					f2 = 1
+  Purity(String), 			// #Intuition					f3 = 2
+  Selfless(String),			// #Care						f4 = 3
+  NonThingness(String),		// #Honesty						f5 = 5
+  Unmoving(String), 		// #Truth						f6 = 8, f7 = 13,f8 = 21, f9 = 34
+  Empathy(String),			// #Influenced					f-1 = 1
+  Kindness(String),			// #Influenced					f-2 = -1
+  Conscience(String),		// #Veiled of Right and Wromg	f-3 = 2
+  NoConscience(String),	    // #Indoctrinated				f-4 = -3
+  InflictedFear(String),    // #Indoctrinated				f-5 = 5
+  Vampire(String),		    // #Indoctrinated				f-6 = -8
 }
 // Claimed solutions to be verified for rated quality of the variant
 // The impl demands  scientifically cultivable variant for its movement from one to another  
@@ -360,7 +384,7 @@ pub enum Xlevels { // type behavior based on its traits and its rated major boun
   ProcessDiscovered(String),	// #Care f<sub>4</sub> = 3
   KnowingThought(String),		// #Honesty f<sub>5</sub> = 5
   CareViaCosmicEnergy(String),	// #Truth f<sub>6</sub> = 8
-  HelpViaCosmicEnergy(String),	// #Truth f<sub>7</sub> = 13
+  HelpViaCosmicEnergy(String),	// #Truth f<sub>7</sub> = 13, f8 = 21, f9 = 34
   CulturalInfluenced(String),	// #Influenced
   RegionalInfluenced(String),	// #Influenced
   NationalInfluenced(String),	// #Influenced
@@ -415,7 +439,7 @@ impl Flevels {
 */
 
 #[derive(Debug)]
-pub enum OneToDiversity { 
+pub enum OneToDiversityLink { 
   Oneness(String),          // Oneness >< Diversity
       
   GodKingdom(String),		// within - to be proven as Epistemic Objective 
@@ -459,10 +483,8 @@ pub enum OneToDiversity {
 // Claimed solutions to be verified for either #Truth or hallucination / imagination
 // The impl demands verifiable solution from the variant on duality plane of conflicting 
 // consciousness to No-Conflict consciousness of #EmptyTheContent and ThenWhat when back
-impl OneToDiversity {
-//    fn verified(&self) {
-       // method body would be defined here
-//    }
+pub trait OneToDiversity {
+    fn verified(&self) {}	// method body would be defined here
 }
 
 // use generic type of Diversity
