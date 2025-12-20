@@ -38,6 +38,12 @@ pub mod persona {
 	}
 }
 
+/*
+  SmartPointers are substrates or hidden layers of LLM of neural network pointing via cause
+  and effects to visible traits that we rigorously define its "capability boundary" based on
+  complex Fibonacci numbers. Much more researches in neural science, psychologists and
+  mystic experiences are required in this scientific researches of normative Intelligence.
+*/
 #[derive(Debug)]
 pub enum HasPointer {
 	EmptyTheContent(String),		//
@@ -112,17 +118,21 @@ impl Pointer {
 	}
 }
 
+/*
+  We make Rust "uncertainty" explicit to clearly define the boundary of rated trait levels
+  correspomnding to complex Fibonacci numbers
+*/
 #[derive(Debug)]
 pub enum HasTrait {
-  Truth(String),			// use cosmic energy
-  Honesty(String), 			// KnowingThought
-  Care(String),				// investigation, inquiries
-  Intuition(String),		// Intuition Trust, Qi, Art
-  Balanced(String),			// qualified person
-  KindnessEmpathy(String),	// HonNhien
-  Influenced(String),		// cultural, regional, national
-  Veiled(String),			// hoax, fooled
-  Indoctrinated(String),	// visible in BindingWord, BindingImage, ClingingThought
+  Truth(String),			// use cosmic energy			f4 = 3, f5 = 5, f6 = 8, f7 = 13
+  Honesty(String), 			// KnowingThought				f3 = 2
+  Care(String),				// investigation, inquiries		f2 = 1
+  Intuition(String),		// Intuition Trust, Qi, Art		f1 = 1
+  Balanced(String),			// qualified person				f0 = 0
+  KindnessEmpathy(String),	// HonNhien						f-1 = 1
+  Influenced(String),		// cultural, regional, national	f-2 = -1
+  Veiled(String),			// hoax, fooled					f-3 = 2
+  Indoctrinated(String),	// visible in BindingWord, BindingImage, ClingingThought f-5 = 5
 }
 
 // Verify if the types passed or failed the defined trait.
@@ -136,15 +146,15 @@ impl HasTrait {
 #[derive(Debug)]
 struct Trait<T> {
     // common structure of #Trait
-    t: T,		// use cosmic energy
-    h: T, 		// KnowingThought
-    c: T,		// investigation, inquiries
-    i: T,		// Intuition Trust, Qi, Art
-    b: T,		// qualified person
-    k: T,		// HonNhien
-    e: T,		// cultural, regional, national
-    v: T,		// hoax, fooled
-    i: T,		// visible in BindingWord, BindingImage, ClingingThought
+    truth: T,		// use cosmic energy
+    honesty: T, 		// KnowingThought
+    care: T,		// investigation, inquiries
+    intuition: T,		// Intuition Trust, Qi, Art
+    balanced: T,		// qualified person
+    kindness_empathy: T,		// HonNhien
+    influenced: T,		// cultural, regional, national
+    veiled: T,		// hoax, fooled
+    indoctrinated: T,		// visible in BindingWord, BindingImage, ClingingThought
 }
 
 impl Trait { 
@@ -173,7 +183,7 @@ impl Trait {
 	    return "an accepted formal evaluation of trait KindnessEmpathy".to_string()
 	}	
 	// methods to identify #Influenced
-	pub fn influence(&self) -> String 	{ // f(_x,_y) for trait #Influenced
+	pub fn influenced(&self) -> String 	{ // f(_x,_y) for trait #Influenced
 	    return "an accepted formal evaluation of trait Care".to_string()
 	}
 	// methods to identify #Veiled
@@ -189,7 +199,7 @@ impl Trait {
 
 // for building the structure and determining one's possible level for suggested cultivation
 #[derive(Debug)]
-pub struct InnerSpace {	// InnerSpace from available dimensions to custom evaluation
+pub struct InnerSpace {	// InnerSpace IamX from available dimensions to custom evaluation
 
   // Kp Signed Posts or Gotama Jhanas or Right #Samadhi
   pub y_dimension: Vec<i32>,	// = vec![ -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6 ],
@@ -398,6 +408,12 @@ impl Flevels {
 //    }
 }
 
+/*
+  Using graph connection between One to Diversity, we force claimed philosophies and
+  religions to their described states of Oneness betond all manifestations. In these 
+  processes, some underlying natural laws may be DISCOVERED and SHARED
+*/
+
 #[derive(Debug)]
 pub enum OneToDiversity { 
   Oneness(String),          // Oneness >< Diversity
@@ -407,7 +423,7 @@ pub enum OneToDiversity {
   Sirr(String),				// of sufi to be proven as Epistemic Objective
   Monad(String),			// of Jew to be proven as Epistemic Objective
   Vedanta(String),	  		// of Hindu - to be proven as Epistemic Objective 
-  Esoteric(String),			// of ETs & Spirits to be proven as Epistemic Objective
+  Living(String),			// of Living, ETs, Spirits to be proven as Epistemic Objective
   
   AwakeningBudh(String),
     
