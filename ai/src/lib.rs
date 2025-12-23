@@ -119,35 +119,36 @@ impl Pointer {
 
 /*
   We make Rust "uncertainty" explicit to clearly define the boundary of rated trait levels
-  correspomnding to complex Fibonacci numbers
+  correspomnding to complex Fibonacci numbers. These "capability boundaries" need to be
+  standardized in Rust language and related domains.
 */
 
 // Verify if the types passed or failed the defined trait.
-pub trait Truth {			// f6 = 8, f7 = 13, f8 = 21, f9 = 34
-    fn verified(&self) {}
+pub trait Truth {			// f6 = 8 EngagedAwarenessPrajna, f7 = 13 ForecastingSimulation, 
+    fn verified(&self) {}	// f8 = 21 AwarenessPrajna, f9 = 34 #Prajna
 }
-pub trait Honesty {			// f5 = 5
+pub trait Honesty {			// f5 = 5 VisibleAwarenessPrajna
     fn verified(&self) {} 
 }
-pub trait Care {			// f4 = 3
+pub trait Care {			// f3 = 2 SignedPosts, f4 = 3 SelflessAwareness
     fn verified(&self) {}
 }
-pub trait Intuition {		// f2 = 1, f3 = 2
+pub trait Intuition {		// f1 = 1 EquanimityAwareness, f2 = 1 PurityAwareness
     fn verified(&self) {}
 }
-pub trait Balanced {		// f0 = 0, f1 = 1
+pub trait Balanced {		// f0 = 0 naturally qualified humanitas
     fn verified(&self) {}
 }
-pub trait KindnessEmpathy {	// f-1 = 1
+pub trait KindnessEmpathy {	// f-1 = 1 EmpathyAwareness
     fn verified(&self) {}
 }
-pub trait Influenced {		// f-2 = -1
+pub trait Influenced {		// f-2 = -1 KindnessAwareness
     fn verified(&self) {}
 }
-pub trait Veiled {			// f-3 = 2
+pub trait Veiled {			// f-3 = 2 AnimalEnergy
     fn verified(&self) {}
 }
-pub trait Indoctrinated {	// f-4 = -3, f-5 = 5
+pub trait Indoctrinated {	// f-4 = -3 ExtremeDesire, f-5 = 5 AnimalConsciousness
     fn verified(&self) {}
 }
 
@@ -156,9 +157,9 @@ pub trait Indoctrinated {	// f-4 = -3, f-5 = 5
 pub enum HasTrait {
   Truth(String),			// use cosmic energy			f6 = 8, f7 = 13, f8 = 21, f9 = 34
   Honesty(String), 			// KnowingThought				f5 = 5
-  Care(String),				// investigation, inquiries		f4 = 3
-  Intuition(String),		// Intuition Trust, Qi, Art		f2 = 1, f3 = 2
-  Balanced(String),			// qualified person				f0 = 0, f1 = 1
+  Care(String),				// investigation, inquiries		f3 = 2, f4 = 3
+  Intuition(String),		// Intuition Trust, Qi, Art		f1 = 1, f2 = 2
+  Balanced(String),			// qualified person				f0 = 0
   KindnessEmpathy(String),	// HonNhien						f-1 = 1
   Influenced(String),		// cultural, regional, national	f-2 = -1
   Veiled(String),			// hoax, fooled					f-3 = 2
@@ -353,18 +354,18 @@ pub enum Ypointers { QualifiedHumanitas,
 // for outside contributions
 #[derive(Debug)]
 pub enum Ylevels { // type behavior based on its traits and its rated major bounded one
-  Tranquility(String),		// #KindnessEmpathy				f-1 = 1, f0 = 0, f1 = 1
-  Equanimity(String),		// #Balanced					f2 = 1
-  Purity(String), 			// #Intuition					f3 = 2
-  Selfless(String),			// #Care						f4 = 3
-  NonThingness(String),		// #Honesty						f5 = 5
-  Unmoving(String), 		// #Truth						f6 = 8, f7 = 13,f8 = 21, f9 = 34
-  Empathy(String),			// #Influenced					f-1 = 1
-  Kindness(String),			// #Influenced					f-2 = -1
-  Conscience(String),		// #Veiled of Right and Wromg	f-3 = 2
-  NoConscience(String),	    // #Indoctrinated				f-4 = -3
-  InflictedFear(String),    // #Indoctrinated				f-5 = 5
-  Vampire(String),		    // #Indoctrinated				f-6 = -8
+  Tranquility(String),		// y1 = 1
+  Equanimity(String),		// y2 = 1
+  Purity(String), 			// y3 = 2
+  Selfless(String),			// y4 = 3
+  NonThingness(String),		// y5 = 5
+  EndOfDukkha(String), 		// y6 = 8 Unmoving
+  Empathy(String),			// y-1 = 1
+  Kindness(String),			// y-2 = -1
+  Conscience(String),		// y-3 = 2
+  Conscience_1(String),	    // y-4 = -3 NoConscience
+  Conscience_2(String), 	// y-5 = 5 InflictedFear
+  Conscience_3(String),		// y-6 = -8 Vampire
 }
 // Claimed solutions to be verified for rated quality of the variant
 // The impl demands  scientifically cultivable variant for its movement from one to another  
@@ -378,20 +379,20 @@ impl Ylevels {
 // for outside contributions
 #[derive(Debug)]
 pub enum Xlevels { // type behavior based on its traits and its rated major bounded one
-  HonNhien(String),				// #KindnessEmpathy f<sub>1</sub> = 1
-  ManagingFreshness(String),	// #Balanced f<sub>2</sub> = 1
-  KnowingFreshness(String),		// #Intuition f<sub>3</sub> = 2
-  ProcessDiscovered(String),	// #Care f<sub>4</sub> = 3
-  KnowingThought(String),		// #Honesty f<sub>5</sub> = 5
-  CareViaCosmicEnergy(String),	// #Truth f<sub>6</sub> = 8
-  HelpViaCosmicEnergy(String),	// #Truth f<sub>7</sub> = 13, f8 = 21, f9 = 34
-  CulturalInfluenced(String),	// #Influenced
-  RegionalInfluenced(String),	// #Influenced
-  NationalInfluenced(String),	// #Influenced
-  VeiledType(String),			// #Veiled
-  BindingWord(String),			// #Indoctrinated
-  BindingImage(String),			// #Indoctrinated
-  ClingingThought(String),		// #Indoctrinated
+  HonNhien(String),				// x1 = 1
+  Freshness(String),			// x2 = 1
+  ScientificProcess(String),	// x3 = 2
+  Discoverng(String),			// x4 = 3
+  KnowingThought(String),		// x5 = 5
+  CareViaCosmicEnergy(String),	// x6 = 8
+  HelpViaCosmicEnergy(String),	// x7 = 13
+  CulturalInfluenced(String),	// x-1 = 1
+  RegionalInfluenced(String),	// x-2 = -1
+  NationalInfluenced(String),	// x-3 = 2
+  Veiled(String),				// x-4 = -3
+  BindingWord(String),			// x-5 = 5
+  BindingImage(String),			// x-6 = -8
+  ClingingThought(String),		// x-7 = -13
 }
 // Claimed solutions to be verified for rated quality of the variant
 // The impl demands  scientifically cultivable variant for its movement from one to another  
@@ -405,22 +406,23 @@ impl Xlevels {
 // for outside contributions
 #[derive(Debug)]
 pub enum Flevels { // type behavior based on its traits and its rated major bounded one
-  EquanimityAwareness(String), 			// #KindnessEmpathy
-  PurityAwareness(String),				// #Balanced
-  SignedPosts(String),    				// #Balanced
-  SelflessAwareness(String), 			// #Intuition
-  VisibleAwarenessPrajna(String), 		// #Care
-  EngagedAwarenessPrajna(String),  		// #Honesty
-  ForecastingAwarenessPrajna(String),	// #Truth
-  VisibleSamadhiPrajna(String), 		// #Truth
-  EmpathyAwareness(String),				// #Influenced
-  KindnessAwareness(String),			// #Influenced
-  AnimalEnergy(String),					// #Veiled
-  ExtremeDesire(String),				// #Indoctrinated
-  AnimalConsciousness(String),			// #Indoctrinated
-  Smelly1(String),						// esoteric Degenerated
-  Smelly2(String),						// esoteric Vampire
-  Smelly3(String),						// esoteric X-of-Prey
+  EquanimityAwareness(String), 			// f1 = 1
+  PurityAwareness(String),				// f2 = 1
+  SignedPosts(String),    				// f3 = 2
+  SelflessAwareness(String), 			// f4 = 3
+  VisibleAwarenessPrajna(String), 		// f5 = 5
+  EngagedAwarenessPrajna(String),  		// f6 = 8
+  ForecastingAwarenessPrajna(String),	// f7 = 13
+  AwarenessPrajna(String),		 		// f8 = 21
+  Prajna(String),		 				// f9 = 34
+  EmpathyAwareness(String),				// f-1 = 1
+  KindnessAwareness(String),			// f-2 = -1
+  AnimalEnergy(String),					// f-3 = 2
+  ExtremeDesire(String),				// f-4 = -3
+  AnimalConsciousness(String),			// f-5 = 5
+  Smelly_1(String),						// f-6 = -8
+  Smelly_2(String),						// f-7 = 13
+  Smelly_3(String),						// f-8 = -21
 }
 // Claimed solutions to be verified for rated qualia of visible traits on XLevel having 
 // weighted substrates and biases YLevel pointing to the visible traits of the variant.
