@@ -31,25 +31,25 @@
  
    Ylevels: "Y 0: Peace" =  0, "Y+1: Tranquility" = 1, "Y+2: Equanimity" = 1,
      "Y+3: Purity" = 2, "Y+4: Selfless" = 3, "Y+5: NonThingness" = 5  (Gotama's impass - 
-     SelfSelfless), "Y+6: Unmoving" = 8  (Gotama's impass - #SamadhiPrajna)
+     SelfSelfless), "Y+6: Unmoving / EndDukkha" = 8  (Gotama's impass - #SamadhiPrajna)
      
-     "Y-1: Empathy" =  1, "Y-2: Kindness" = -1, "Y-3: Conscience" =  2, 
+     "Y-1: Empathy" =  1, "Y-2: Kindness" = -1, "Y-3: Conscience" = 2, 
      "Y-4: NoConscience" = -3, "Y-5: InflictedFear" =  5 (capable for hegemony),
      "Y-6: Vampire" = -8
    
-   Xlevels: "X 0: Blank" =  0, "X+1: HonNhien" = 1, "X+2: ManagingFreshness" = 1,
-     "X+3: KnowingFreshness" = 2, "X+4: ProcessDiscovered" = 3, 
+   Xlevels: "X 0: Blank" =  0, "X+1: HonNhien" = 1, "X+2: Freshness" = 1,
+     "X+3: ScientificProcess" = 2, "X+4: Discovering" = 3, 
      "X+5: KnowingThought" = 5 (breakout), "X+6: CareViaCosmicEnergy" = 8,
      "X+7: HelpViaCosmicEnergy" = 13 (consciousness technology)
      
      "X-1: CulturalInfluenced" =  1, "X-2: RegionalInfluenced" = -1,
-     "X-3: NationalInfluenced" =  2, "X-4: VeiledType" = -3, "X-5: BindingWord" =  5
+     "X-3: NationalInfluenced" =  2, "X-4: Veiled" = -3, "X-5: BindingWord" =  5
      (breakout), "X-6: BindingImage" = -8, "X-7: ClingingThought" = 13 (indoctrinated)
    
    Flevels: "F 0: Persona" = 0, "F+1: EquanimityAwareness" = 1, "F+2: PurityAwareness" = 1,
      "F+3: SignedPosts" = 2, "F+4: SelflessAwareness" = 3,
      "F+5: VisibleAwarenessPrajna"= 5, "F+6: EngagedAwarenessPrajna" = 8,
-     "F+7: ForecastingSimulation" = 13, "F+8: SamadhiPrajna" = 21
+     "F+7: ForecastingAwarenessPrajna" = 13, "F+8: AwarenessPrajna" = 21, F+9 = 34 #Prajna
      
      "F-1: EmpathyAwareness" =  1, "F-2: KindnessAwareness" = -1, "F-3: AnimalEnergy" = 2,
      "F-4: ExtremeDesire" = -3, "F-5: AnimalConsciousness" =  5 (in living person),
@@ -57,42 +57,36 @@
      // and the same real number indicating the same level in intelligence, the Living
      // Intelligence can be the Right evolution or Wrong degeneration. Empirically, the
      // negative Fibonacci numbers from -6 can be observable only from spirit world
-     "F-6: Smelly1" = -8 (Vampire), "F-7: Smelly2", "F-8: Smelly3" = -34 
+     "F-6: Smelly_1" = -8 (Vampire), "F-7: Smelly_2", "F-8: Smelly_3" = -34 
   
  Namings are observable Rust types for modeling and simulations with observable rated
  "#Traits" acting as glue of the system ontological types, enabling expressive and
  composable abstractions 
  (https://medium.com/@adamszpilewicz/traits-in-rust-beyond-the-basics-34850b1a6a1d)
  
-  #Traits: "T 0: #Balanced" = 0, "T+1: #Intuition" = 1, "T+2: #Care" = 1, 
-    "T+3: #Honesty" = 2, "T+4: #Truth" = 3
+  #Traits: "T 0: #Balanced" = 0, "T+1: #Intuition" (f1 to f2), "T+2: #Care" (f3 to f4), 
+    "T+3: #Honesty" (f5), "T+4: #Truth" (f6 to f9)
     // #KindnessEmpathy must be strong enough to be naturally qualified as a #Balanced 
     // persona. Other negative traits from #Influenced to #Indoctrinated are tainted senses
     // to be manageable by Detachment and detoxified by #Prajna as advised by Gotama 
-    "T-1: #KindnessEmpathy" =  1, "T-2: #Influenced" = -1, "T-3: #Veiled" = 2,
-    "T-4: Indoctrinated" = -3
+    "T-1: #KindnessEmpathy" =  1, "T-2: #Influenced", "T-3: #Veiled", "T-4: Indoctrinated"
  
  Naturally qualified humanitas at [ "Y 0" / "X 0" / "F 0"  = 0 ] has #Balanced trait from
  tainted senses with innate infrastructure to be on the No-Conflict consciousness [X Y]
  orthogonal to the Inside [Y F] and Outside [X F] planes of conflicting consciousness. The
  ascending rating on the No-Conflict plane of consciousness are manifested traits of having
- "T+1: #Intuition" (from "Y+1: Tranquility" Inside and "X+1: HonNhien" Outside of 
- "F+1: EquanimityAwareness"), "T+2: #Care" (thank to "Y+2: Equanimity" Inside capable of 
- "X+2: ManagingFreshness" Outside of F+2: PurityAwareness), "T+3: #Honesty" (naturally from 
- "Y+3: Purity" Inside and "X+3: KnowingFreshness" Outside of "F+3: SignedPosts" in knowing 
- What Count), reaching verifiable "T+4: #Truth" (due to the quality of "Y+4: Selfless" 
- Inside and ability of "X+4: ProcessDiscovered" Outside of "F+4: SelflessAwareness"). The 
- deepening of this ascending process is observable at "X+5: KnowingThought" thanks to 
- detachment of "Y+5: NonThingness" for naturally reborn and rejuvenation in "F+5: 
- VisibleAwarenessPrajna" to testify Gotama's glimpse of #AwarenessPrajna { Chánh Niệm-Tỉnh 
- Giác: "karma flows as a stream; whatever the streams, it is Transcendental #Awareness that 
- obstructs and restricts them, and by #Prajna they are dissolved" } , capable of (1) "X+6: 
- CareViaCosmicEnergy" against esoteric attacks from stabilizing the establised Siddhis to
- possible at Y+6 the bordered line between existence and non-existence for the self via 
+ "T+1: #Intuition", "T+2: #Care", "T+3: #Honesty", reaching verifiable "T+4: #Truth" (due to 
+ the quality of "Y+4: Selfless" Inside and ability of "X+4: Discovering" Outside of "F+4: 
+ SelflessAwareness"). The deepening of this ascending process is observable at "X+5: 
+ KnowingThought" thanks to detachment of "Y+5: NonThingness" for naturally reborn and 
+ rejuvenation in "F+5: VisibleAwarenessPrajna" to testify Gotama's glimpse of 
+ #AwarenessPrajna { Chánh Niệm-Tỉnh Giác: "karma flows as a stream; whatever the streams, it 
+ is Transcendental #Awareness that obstructs and restricts them, and by #Prajna they are 
+ dissolved" } , capable of (1) "X+6: CareViaCosmicEnergy" against esoteric attacks from 
+ stabilizing the establised Siddhis to possible at Y+6 EndDukkha for the self via 
  "F+6: EngagedAwarenessPrajna", and (2) "X+7: HelpViaCosmicEnergy" capable of more 
- stabilizing the known Siddhis from "F+7: ForecastingSimulation" and "F+8: 
- SamadhiPrajna" { Định-Tuệ: #Samadhi is the Quintessence of Prajna, while #Prajna is the 
- activity of Samadhi } visible from manifested InnerSpace.
+ stabilizing the known Siddhis from "F+7: ForecastingAwarenessPrajna", "F+8: 	
+ AwarenessPrajna" and "F+9: #Prajna" visible from manifested InnerSpace.
  
  Only from humanity upward in the Right evolution can reach the verifiable "T+4: #Truth", 
  otherwise on the degenerated path of "Y-5: InflictedFear" attached on "X-5: BindingWord" 
@@ -105,7 +99,7 @@
  
    #SmartPointers: #EmptyTheContent, #DhyanaSamadhi, #Samadhi, #Awareness, #Prajna,
      #AwarenessPrajna, #SamadhiPrajna, #PrajnaTIP1, #PrajnaTIP2 where the trait 
-     "T+1: #Intuition" = 1 is [ the outcomes of Silence / Stillness from #EmptyTheContent, 
+     "T+1: #Intuition" is the outcomes of Silence / Stillness from [ #EmptyTheContent, 
      #DhyanaSamadhi, #Samadhi, #Awareness, #AwarenessPrajna, #SamadhiPrajna, #PrajnaTIP1, 
      #PrajnaTIP2 ]
 
